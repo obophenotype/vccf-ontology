@@ -1,5 +1,6 @@
 
 ![Build Status](https://github.com/obophenotype/vccf-ontology/workflows/CI/badge.svg)
+# STATUS - EXPERIMENTAL DO NOT USE
 # Vasculature Common Coordinate Framework Ontology
 
 Description: None
