@@ -1,0 +1,27 @@
+id: vccf
+title: "Vasculature Common Coordinate Framework Ontology"
+github_org: obophenotype
+git_main_branch: main
+repo: vccf-ontology
+use_dosdps: TRUE
+release_artefacts:
+  - base
+  - full
+  - simple
+primary_release: full
+export_formats:
+  - owl
+  - obo
+  - json
+import_group:
+  mirror_max_time_download: 800
+  products:
+    - id: uberon
+      use_base: TRUE
+robot_java_args: "-Xmx12G"
+robot_report:
+  use_labels: TRUE
+  fail_on: ERROR
+  custom_profile: TRUE
+  report_on:
+    - edit
