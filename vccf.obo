@@ -1,0 +1,25 @@
+format-version: 1.2
+data-version: releases/2023-03-02
+ontology: vccf
+property_value: dcterms-license https://creativecommons.org/licenses/unspecified
+property_value: http://purl.org/dc/terms/description "None" xsd:string
+property_value: http://purl.org/dc/terms/title "Vasculature Common Coordinate Framework Ontology" xsd:string
+property_value: owl:versionInfo "2023-03-02" xsd:string
+
+[Term]
+id: VCCF:0000000
+name: root node
+
+[Typedef]
+id: dcterms-license
+name: license
+namespace: uberon
+xref: http://purl.org/dc/terms/license
+is_metadata_tag: true
+
+[Typedef]
+id: part_of
+name: part of
+namespace: uberon
+xref: BFO:0000050
+

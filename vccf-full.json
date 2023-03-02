@@ -1,0 +1,69 @@
+{
+  "graphs" : [ {
+    "id" : "http://purl.obolibrary.org/obo/vccf/vccf-full.json",
+    "meta" : {
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.org/dc/terms/description",
+        "val" : "None"
+      }, {
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "https://creativecommons.org/licenses/unspecified"
+      }, {
+        "pred" : "http://purl.org/dc/terms/title",
+        "val" : "Vasculature Common Coordinate Framework Ontology"
+      }, {
+        "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
+        "val" : "2023-03-02"
+      } ],
+      "version" : "http://purl.obolibrary.org/obo/vccf/releases/2023-03-02/vccf-full.json"
+    },
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "lbl" : "part of",
+      "type" : "PROPERTY",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "BFO:0000050"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "uberon"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "part_of"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VCCF_0000000",
+      "lbl" : "root node",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.org/dc/terms/description",
+      "lbl" : "description",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.org/dc/terms/license",
+      "lbl" : "license",
+      "type" : "PROPERTY",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "http://purl.org/dc/terms/license"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "uberon"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "dcterms-license"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.org/dc/terms/title",
+      "lbl" : "title",
+      "type" : "PROPERTY"
+    } ]
+  } ]
+}
