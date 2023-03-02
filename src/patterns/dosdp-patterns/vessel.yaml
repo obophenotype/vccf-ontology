@@ -1,0 +1,44 @@
+pattern_name: vessel
+pattern_iri: http://purl.obolibrary.org/obo/vccf/patterns/vessel.yaml
+description: "This is a minimal example pattern."
+status: "development"
+
+classes:
+  Homo sapiens: "NCBITaxon:9606"
+
+relations:
+  connected to: "RO:0002170"
+  in taxon: "RO:0002162"
+
+annotationProperties:
+  obo_foundry_uniquename: "obo_foundry_uniquename"
+
+vars:
+  taxon: "'Homo sapiens'"
+  parent: ""
+  location: ""
+
+data_vars:
+  vessel_name: ""
+
+data_list_vars:
+  synonym: ""
+
+name:
+  text: "%s"
+  vars:
+   - vessel_name
+
+def:
+  text: "A vessel located in %s"
+  vars:
+    - location
+  xrefs: xrefs
+
+exact_synonym:
+  value: synonym
+
+subClassOf:
+  text: "%s"
+  vars:
+    - parent
