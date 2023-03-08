@@ -1,6 +1,6 @@
 pattern_name: vessel
 pattern_iri: http://purl.obolibrary.org/obo/vccf/patterns/vessel.yaml
-description: "This is a minimal example pattern."
+description: "This is a pattern for a vessel in the human body."
 status: "development"
 
 classes:
@@ -11,23 +11,27 @@ relations:
   in taxon: "RO:0002162"
 
 annotationProperties:
-  obo_foundry_uniquename: "obo_foundry_uniquename"
+  obo_foundry_uniquename: "vccf:obo_foundry_uniquename"
 
 vars:
   taxon: "'Homo sapiens'"
   parent: ""
   location: ""
 
-data_vars:
-  vessel_name: ""
-
 data_list_vars:
   synonym: ""
+  xrefs: ""
+
+data_vars:
+  label: ""
+  human_label: ""
+  position: ""
 
 name:
-  text: "%s"
+  text: "%s %s"
   vars:
-   - vessel_name
+    - position
+    - label
 
 def:
   text: "A vessel located in %s"
@@ -37,8 +41,17 @@ def:
 
 exact_synonym:
   value: synonym
+  
+logical_axioms:
+  - axiom_type: subClassOf
+    text: "%s"
+    vars:
+      - parent
+  - axiom_type: subClassOf
+    text: "'in taxon' some %s"
+    vars:
+      - taxon
 
-subClassOf:
-  text: "%s"
-  vars:
-    - parent
+annotations:
+  - annotationProperty: obo_foundry_uniquename
+    value: human_label

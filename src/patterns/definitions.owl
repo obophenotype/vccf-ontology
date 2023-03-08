@@ -7,12 +7,13 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/vccf/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/vccf/releases/2023-03-02/patterns/definitions.owl>
-Annotation(owl:versionInfo "2023-03-02")
+<http://purl.obolibrary.org/obo/vccf/releases/2023-03-08/patterns/definitions.owl>
+Annotation(owl:versionInfo "2023-03-08")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001638>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_0000001>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
 
 
@@ -20,11 +21,11 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/VCCF_0000001> (left inferior pulmonary vein)
+# Class: <http://purl.obolibrary.org/obo/VCCF_0000001> (first left inferior pulmonary vein)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_0000001> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "wiki:Pulmonary_vein") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_0000001> "A vessel located in lung")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_0000001> "left inferior pulmonary vein")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_0000001> "left inferior pulmonary vein")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_0000001> "first left inferior pulmonary vein")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_0000001> <http://purl.obolibrary.org/obo/UBERON_0001638>)
 
 
