@@ -18,6 +18,10 @@ import_group:
   products:
     - id: uberon
       use_base: TRUE
+      module_type: minimal
+    - id: ro
+      use_base: TRUE
+      module_type: minimal
 robot_java_args: "-Xmx12G"
 robot_report:
   use_labels: TRUE
