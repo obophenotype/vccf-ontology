@@ -3,34 +3,32 @@ pattern_iri: http://purl.obolibrary.org/obo/vccf/patterns/vessel.yaml
 description: "This is a pattern for a vessel in the human body."
 status: "development"
 
-classes:
-  Homo sapiens: "NCBITaxon:9606"
-
 relations:
   connected to: "RO:0002170"
   in taxon: "RO:0002162"
 
 annotationProperties:
-  obo_foundry_uniquename: "vccf:obo_foundry_uniquename"
+  obo_foundry_uniquename: "http://purl.obolibrary.org/obo/IAO_0000589"
+  hasExactSynonym: "oboInOwl:hasExactSynonym"
+  hasDbXref: "oboInOwl:hasDbXref"
 
 vars:
-  taxon: "'Homo sapiens'"
   parent: ""
-  location: ""
+  taxon: "NCBITaxon:9606"
 
 data_list_vars:
   synonym: ""
   xrefs: ""
+  synonym_xrefs: ""
 
 data_vars:
   label: ""
   human_label: ""
-  position: ""
+  location: ""
 
 name:
-  text: "%s %s"
+  text: "%s"
   vars:
-    - position
     - label
 
 def:
@@ -41,6 +39,7 @@ def:
 
 exact_synonym:
   value: synonym
+  xrefs: synonym_xrefs
   
 logical_axioms:
   - axiom_type: subClassOf
@@ -54,4 +53,6 @@ logical_axioms:
 
 annotations:
   - annotationProperty: obo_foundry_uniquename
-    value: human_label
+    text: "%s"
+    vars: 
+      - human_label
