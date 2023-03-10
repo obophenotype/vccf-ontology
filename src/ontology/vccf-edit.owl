@@ -12,9 +12,11 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 Ontology(<http://purl.obolibrary.org/obo/vccf.owl>
 
 Import(<http://purl.obolibrary.org/obo/vccf/imports/uberon_import.owl>)
-
+Import(<http://purl.obolibrary.org/obo/vccf/imports/ro_import.owl>)
+Import(<http://purl.obolibrary.org/obo/vccf/imports/omo_import.owl>)
 
 Import(<http://purl.obolibrary.org/obo/vccf/patterns/definitions.owl>)
+Import(<http://purl.obolibrary.org/obo/vccf/components/vessel_relation.owl>)
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Vasculature Common Coordinate Framework Ontology")
@@ -43,4 +45,3 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_0000000> "ro
 
 
 )
-
