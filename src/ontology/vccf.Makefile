@@ -8,8 +8,7 @@ VESSEL_CSV = https://raw.githubusercontent.com/hubmapconsortium/hra-vccf/main/Ve
 $(TMPDIR)/vessel.csv:
 	wget $(VESSEL_CSV) -O $@
 
-$(PATTERNDIR)/data/default/vessel.tsv: $(TMPDIR)/vessel.csv
-	python ../scripts/vessel_ETL.py --input $< --pattern $@
+$(PATTERNDIR)/data/default/vessel.tsv $(TEMPLATEDIR)/vessel_relation.tsv: $(TMPDIR)/vessel.csv
+	python ../scripts/vessel_ETL.py --input $< --pattern $@ --template $(TEMPLATEDIR)/vessel_relation.tsv
 
 update_vessel_data: $(PATTERNDIR)/data/default/vessel.tsv
-.PHONY: update_vessel_data
