@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/vccf/components/vessel_relation.owl>
-<http://purl.obolibrary.org/obo/vccf/releases/2023-03-10/components/vessel_relation.owl>
-Annotation(owl:versionInfo "2023-03-10")
+<http://purl.obolibrary.org/obo/vccf/releases/2023-04-12/components/vessel_relation.owl>
+Annotation(owl:versionInfo "2023-04-12")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000001>))
