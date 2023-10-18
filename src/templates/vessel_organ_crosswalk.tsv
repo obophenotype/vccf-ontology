@@ -1,0 +1,294 @@
+Vessel	Label	overlaps	part_of	directly_supplies_drains	connected_to	drains	supplies	located_in	nan
+ID	LABEL	SC overlaps some %	SC 'part of' some %	SC directly_supplies_drains some %	SC 'connected to' some %	SC drains some %	SC supplies some %	SC located_in some %	
+VCCF:1000394	anterior inferior segmental renal artery	UBERON:0008716							
+VCCF:1000394	anterior inferior segmental renal artery								
+VCCF:1000395	anterior superior segmental renal artery	UBERON:0008716							
+VCCF:1000395	anterior superior segmental renal artery								
+VCCF:1000401	arcuate renal artery		UBERON:0001225						
+VCCF:1000401	arcuate renal artery		UBERON:0005271						
+VCCF:1000778	arcuate renal vein		UBERON:0001225						
+VCCF:1000778	arcuate renal vein		UBERON:0005271						
+NOTFOUND	ascending vasa recta of kidney		UBERON:0000362						
+NOTFOUND	ascending vasa recta of kidney	UBERON:0004202							
+NOTFOUND	ascending vasa recta of kidney	UBERON:0004201							
+NOTFOUND	ascending vasa recta of kidney	UBERON:0001294							
+NOTFOUND	ascending vasa recta of kidney			UBERON:0001285					
+NOTFOUND	ascending vasa recta of kidney			UBERON:0001289					
+NOTFOUND	descending vasa recta of kidney		UBERON:0000362						
+NOTFOUND	descending vasa recta of kidney	UBERON:0004202							
+NOTFOUND	descending vasa recta of kidney	UBERON:0004201							
+NOTFOUND	descending vasa recta of kidney	UBERON:0001294							
+NOTFOUND	descending vasa recta of kidney			UBERON:0001285					
+NOTFOUND	descending vasa recta of kidney			UBERON:0001291					
+VCCF:1000404	glomerular capillary		UBERON:0001225						
+VCCF:1000404	glomerular capillary		UBERON:0001285						
+VCCF:1000404	glomerular capillary		UBERON:0001229						
+VCCF:1000404	glomerular capillary							UBERON:0001230	
+VCCF:1000404	glomerular capillary			UBERON:0006852					
+VCCF:1000404	glomerular capillary				UBERON:0002320				
+VCCF:1000396	inferior segmental renal artery	UBERON:0008716							
+VCCF:1000396	inferior segmental renal artery								
+VCCF:1000400	interlobar renal artery		UBERON:0001225						
+VCCF:1000400	interlobar renal artery		UBERON:0001284						
+VCCF:1000777	interlobar renal vein		UBERON:0001225						
+VCCF:1000777	interlobar renal vein		UBERON:0001284						
+VCCF:1000402	interlobular renal artery		UBERON:0001225						
+VCCF:1000402	interlobular renal artery		UBERON:0002189						
+VCCF:1000779	interlobular renal vein		UBERON:0001225						
+VCCF:1000779	interlobular renal vein		UBERON:0002189						
+VCCF:1000386	left renal artery						UBERON:0004538		
+VCCF:1000754	left renal vein					UBERON:0004538			
+VCCF:1000406	peritubular capillary		UBERON:0001225						
+VCCF:1000406	peritubular capillary			UBERON:0001285					
+VCCF:1000406	peritubular capillary			UBERON:0005750					
+VCCF:1000406	peritubular capillary			UBERON:0004196					
+VCCF:1000406	peritubular capillary			UBERON:0004197					
+VCCF:1000406	peritubular capillary			UBERON:0001290					
+VCCF:1000406	peritubular capillary			UBERON:0001292					
+VCCF:1000406	peritubular capillary			UBERON:0001291					
+VCCF:1000406	peritubular capillary			UBERON:0002335					
+VCCF:1000406	peritubular capillary			UBERON:0005097					
+VCCF:1000406	peritubular capillary			UBERON:0004203					
+VCCF:1000398	posterior segmental renal artery	UBERON:0008716							
+VCCF:1000398	posterior segmental renal artery								
+VCCF:1000403	renal afferent arteriole		UBERON:0001225						
+VCCF:1000403	renal afferent arteriole	UBERON:0001229							
+VCCF:1000403	renal afferent arteriole	UBERON:0001230							
+VCCF:1000403	renal afferent arteriole								
+VCCF:1000405	renal efferent arteriole		UBERON:0001225						
+VCCF:1000405	renal efferent arteriole	UBERON:0001229							
+VCCF:1000405	renal efferent arteriole	UBERON:0001230							
+VCCF:1000405	renal efferent arteriole								
+VCCF:1000419	right renal artery						UBERON:0004539		
+VCCF:1000789	right renal vein					UBERON:0004539			
+NOTFOUND	segmental renal vein	UBERON:0008716							
+VCCF:1000780	stellate vein of kidney		UBERON:0001225						
+VCCF:1000780	stellate vein of kidney		UBERON:0002189						
+NOTFOUND	stellate venule of kidney		UBERON:0001225						
+NOTFOUND	stellate venule of kidney		UBERON:0002189						
+VCCF:1000781	straight venule of kidney		UBERON:0001225						
+VCCF:1000781	straight venule of kidney		UBERON:0002189						
+VCCF:1000408	superior segmental renal artery	UBERON:0008716							
+VCCF:1000408	superior segmental renal artery								
+VCCF:1000407	vasa recta of kidney		UBERON:0000362						
+VCCF:1000407	vasa recta of kidney	UBERON:0001294							
+VCCF:1000407	vasa recta of kidney			UBERON:0001285					
+VCCF:1000407	vasa recta of kidney			UBERON:0004193					
+NOTFOUND	alveolar capillary								
+NOTFOUND	alveolar capillary		UBERON:0010368						
+NOTFOUND	alveolar capillary		UBERON:0008874						
+NOTFOUND	alveolar capillary								
+NOTFOUND	alveolar capillary			UBERON:0002188					
+NOTFOUND	alveolar capillary			UBERON:0002173					
+NOTFOUND	alveolar capillary			UBERON:0002169					
+NOTFOUND	alveolar capillary			UBERON:0002299					
+VCCF:1000968	anterior basal segmental artery of left lung		UBERON:0002168						
+VCCF:1000968	anterior basal segmental artery of left lung	UBERON:0002401							
+VCCF:1000968	anterior basal segmental artery of left lung		UBERON:0008953						
+VCCF:1000968	anterior basal segmental artery of left lung						FMA:7378		
+VCCF:1000982	anterior basal segmental artery of right lung		UBERON:0002167						
+VCCF:1000982	anterior basal segmental artery of right lung	UBERON:0002401							
+VCCF:1000982	anterior basal segmental artery of right lung		UBERON:0002171						
+VCCF:1000982	anterior basal segmental artery of right lung						FMA:7364		
+VCCF:1000964	anterior segmental artery of left lung		UBERON:0002168						
+VCCF:1000964	anterior segmental artery of left lung	UBERON:0002401							
+VCCF:1000964	anterior segmental artery of left lung		UBERON:0008952						
+VCCF:1000964	anterior segmental artery of left lung						FMA:7373		
+VCCF:1000991	anterior segmental artery of right lung		UBERON:0002167						
+VCCF:1000991	anterior segmental artery of right lung	UBERON:0002401							
+VCCF:1000991	anterior segmental artery of right lung		UBERON:0002170						
+VCCF:1000991	anterior segmental artery of right lung						FMA:7359		
+VCCF:1000992	apical segmental artery of right lung		UBERON:0002167						
+VCCF:1000992	apical segmental artery of right lung	UBERON:0002401							
+VCCF:1000992	apical segmental artery of right lung		UBERON:0002170						
+VCCF:1000992	apical segmental artery of right lung						FMA:7338		
+NOTFOUND	apicoanterior trunk of left pulmonary artery		UBERON:0002168						
+NOTFOUND	apicoanterior trunk of left pulmonary artery	UBERON:0002401							
+NOTFOUND	apicoanterior trunk of left pulmonary artery						UBERON:0008952		
+VCCF:1000965	apicoposterior segmental artery of left lung		UBERON:0002168						
+VCCF:1000965	apicoposterior segmental artery of left lung	UBERON:0002401							
+VCCF:1000965	apicoposterior segmental artery of left lung		UBERON:0008952						
+VCCF:1000965	apicoposterior segmental artery of left lung								
+VCCF:1000967	basal segmental arterial trunk of left lung		UBERON:0002168						
+VCCF:1000967	basal segmental arterial trunk of left lung	UBERON:0002401							
+VCCF:1000967	basal segmental arterial trunk of left lung						UBERON:0008953		
+VCCF:1000981	basal segmental arterial trunk of right lung		UBERON:0002167						
+VCCF:1000981	basal segmental arterial trunk of right lung	UBERON:0002401							
+VCCF:1000981	basal segmental arterial trunk of right lung						UBERON:0002171		
+NOTFOUND	bronchial arteriole						UBERON:0007196		
+NOTFOUND	bronchial capillary						UBERON:0007196		
+NOTFOUND	bronchial capillary			UBERON:0003126					
+NOTFOUND	bronchial capillary			UBERON:0002177					
+NOTFOUND	bronchial capillary			UBERON:0002178					
+NOTFOUND	bronchial capillary			UBERON:0002183					
+NOTFOUND	bronchial capillary			UBERON:0002184					
+NOTFOUND	bronchial capillary			FMA:7408					
+NOTFOUND	bronchial capillary			UBERON:0012067					
+NOTFOUND	bronchial capillary			UBERON:0002187					
+NOTFOUND	bronchial capillary			UBERON:8410043					
+NOTFOUND	bronchial venule					UBERON:0007196			
+NOTFOUND	high truncus anterior of right pulmonary artery		UBERON:0002167						
+NOTFOUND	high truncus anterior of right pulmonary artery	UBERON:0002401							
+NOTFOUND	high truncus anterior of right pulmonary artery		UBERON:0002170						
+VCCF:1000440	inferior left bronchial artery						UBERON:0007196		
+VCCF:1000972	inferior lingular segmental artery of left lung		UBERON:0002168						
+VCCF:1000972	inferior lingular segmental artery of left lung	UBERON:0002401							
+VCCF:1000972	inferior lingular segmental artery of left lung		UBERON:0008952						
+VCCF:1000972	inferior lingular segmental artery of left lung						FMA:7375		
+NOTFOUND	intra-acinar arteriole								
+NOTFOUND	intra-acinar arteriole		UBERON:0010368						
+NOTFOUND	intra-acinar arteriole		UBERON:0008874						
+NOTFOUND	intra-acinar venule								
+NOTFOUND	intra-acinar venule		UBERON:0010368						
+NOTFOUND	intra-acinar venule		UBERON:0008874						
+VCCF:1000969	lateral basal segmental artery of left lung		UBERON:0002168						
+VCCF:1000969	lateral basal segmental artery of left lung	UBERON:0002401							
+VCCF:1000969	lateral basal segmental artery of left lung		UBERON:0008953						
+VCCF:1000969	lateral basal segmental artery of left lung						FMA:7379		
+VCCF:1000983	lateral basal segmental artery of right lung		UBERON:0002167						
+VCCF:1000983	lateral basal segmental artery of right lung	UBERON:0002401							
+VCCF:1000983	lateral basal segmental artery of right lung		UBERON:0002171						
+VCCF:1000983	lateral basal segmental artery of right lung						FMA:7363		
+VCCF:1000986	lateral segmental artery of right lung		UBERON:0002167						
+VCCF:1000986	lateral segmental artery of right lung	UBERON:0002401							
+VCCF:1000986	lateral segmental artery of right lung		UBERON:0002174						
+VCCF:1000986	lateral segmental artery of right lung						FMA:7361		
+VCCF:1000797	left bronchial vein					UBERON:0007196			
+VCCF:1000001	left inferior pulmonary vein					UBERON:0002168			
+VCCF:1000966	left interlobar pulmonary artery		UBERON:0002168						
+VCCF:1000966	left interlobar pulmonary artery	UBERON:0002401							
+VCCF:1000966	left interlobar pulmonary artery								
+VCCF:1000966	left interlobar pulmonary artery								
+VCCF:1000963	left pulmonary artery						UBERON:0002168		
+VCCF:1000002	left superior pulmonary vein					UBERON:0002168			
+NOTFOUND	lingular artery of left lung		UBERON:0002168						
+NOTFOUND	lingular artery of left lung	UBERON:0002401							
+NOTFOUND	lingular artery of left lung						UBERON:0008952		
+VCCF:1000970	medial basal segmental artery of left lung		UBERON:0002168						
+VCCF:1000970	medial basal segmental artery of left lung	UBERON:0002401							
+VCCF:1000970	medial basal segmental artery of left lung		UBERON:0008953						
+VCCF:1000970	medial basal segmental artery of left lung						FMA:7377		
+VCCF:1000984	medial basal segmental artery of right lung		UBERON:0002167						
+VCCF:1000984	medial basal segmental artery of right lung	UBERON:0002401							
+VCCF:1000984	medial basal segmental artery of right lung		UBERON:0002171						
+VCCF:1000984	medial basal segmental artery of right lung						FMA:7365		
+VCCF:1000987	medial segmental artery of right lung		UBERON:0002167						
+VCCF:1000987	medial segmental artery of right lung	UBERON:0002401							
+VCCF:1000987	medial segmental artery of right lung		UBERON:0002174						
+VCCF:1000987	medial segmental artery of right lung						FMA:7360		
+NOTFOUND	post-alveolar capillary								
+NOTFOUND	post-alveolar capillary		UBERON:0010368						
+NOTFOUND	post-alveolar capillary		UBERON:0008874						
+NOTFOUND	post-alveolar capillary								
+VCCF:1000971	posterior basal segmental artery of left lung		UBERON:0002168						
+VCCF:1000971	posterior basal segmental artery of left lung	UBERON:0002401							
+VCCF:1000971	posterior basal segmental artery of left lung		UBERON:0008953						
+VCCF:1000971	posterior basal segmental artery of left lung						FMA:7380		
+VCCF:1000985	posterior basal segmental artery of right lung		UBERON:0002167						
+VCCF:1000985	posterior basal segmental artery of right lung	UBERON:0002401							
+VCCF:1000985	posterior basal segmental artery of right lung		UBERON:0002171						
+VCCF:1000985	posterior basal segmental artery of right lung						FMA:7362		
+VCCF:1000988	posterior segmental artery of right lung		UBERON:0002167						
+VCCF:1000988	posterior segmental artery of right lung	UBERON:0002401							
+VCCF:1000988	posterior segmental artery of right lung		UBERON:0002170						
+VCCF:1000988	posterior segmental artery of right lung						FMA:7339		
+NOTFOUND	pre-alveolar capillary								
+NOTFOUND	pre-alveolar capillary		UBERON:0010368						
+NOTFOUND	pre-alveolar capillary		UBERON:0008874						
+NOTFOUND	pre-alveolar capillary								
+VCCF:1000977	pulmonary arteriole								
+VCCF:1000977	pulmonary arteriole		UBERON:0010368						
+VCCF:1000978	pulmonary capillary								
+VCCF:1000962	pulmonary trunk						UBERON:0002168		
+VCCF:1000962	pulmonary trunk								UBERON:0002167
+VCCF:1000006	pulmonary venule								
+VCCF:1000006	pulmonary venule		UBERON:0010368						
+VCCF:1000455	right bronchial artery						UBERON:0007196		
+VCCF:1000810	right bronchial vein					UBERON:0007196			
+VCCF:1000007	right inferior pulmonary vein					UBERON:0002167			
+VCCF:1000980	right interlobar pulmonary artery		UBERON:0002167						
+VCCF:1000980	right interlobar pulmonary artery	UBERON:0002401							
+VCCF:1000980	right interlobar pulmonary artery								
+VCCF:1000980	right interlobar pulmonary artery								
+VCCF:1000979	right pulmonary artery						UBERON:0002167		
+VCCF:1000008	right superior pulmonary vein					UBERON:0002167			
+VCCF:1000004	segmental pulmonary vein								
+VCCF:1000976	subsegmental pulmonary artery								
+VCCF:1000005	subsegmental pulmonary vein								
+VCCF:1000005	subsegmental pulmonary vein		FMA:84472						
+VCCF:1000469	superior left bronchial artery						UBERON:0007196		
+VCCF:1000973	superior lingular segmental artery of left lung		UBERON:0002168						
+VCCF:1000973	superior lingular segmental artery of left lung	UBERON:0002401							
+VCCF:1000973	superior lingular segmental artery of left lung		UBERON:0008952						
+VCCF:1000973	superior lingular segmental artery of left lung						FMA:7374		
+VCCF:1000974	superior segmental artery of left lung		UBERON:0002168						
+VCCF:1000974	superior segmental artery of left lung	UBERON:0002401							
+VCCF:1000974	superior segmental artery of left lung		UBERON:0008953						
+VCCF:1000974	superior segmental artery of left lung						FMA:7376		
+VCCF:1000989	superior segmental artery of right lung		UBERON:0002167						
+VCCF:1000989	superior segmental artery of right lung	UBERON:0002401							
+VCCF:1000989	superior segmental artery of right lung		UBERON:0002171						
+VCCF:1000989	superior segmental artery of right lung						FMA:7366		
+VCCF:1000990	truncus anterior of right pulmonary artery		UBERON:0002167						
+VCCF:1000990	truncus anterior of right pulmonary artery	UBERON:0002401							
+VCCF:1000990	truncus anterior of right pulmonary artery						UBERON:0002170		
+VCCF:1000431	anterior inferior pancreaticoduodenal artery						UBERON:0001069		
+VCCF:1000431	anterior inferior pancreaticoduodenal artery						UBERON:0010373		
+VCCF:1000734	anterior inferior pancreaticoduodenal vein					UBERON:0001069			
+VCCF:1000734	anterior inferior pancreaticoduodenal vein					UBERON:0010373			
+VCCF:1000167	anterior superior pancreaticoduodenal artery						UBERON:0001069		
+VCCF:1000167	anterior superior pancreaticoduodenal artery						FMA:14517		
+VCCF:1000746	anterior superior pancreaticoduodenal vein					UBERON:0001069			
+VCCF:1000746	anterior superior pancreaticoduodenal vein					FMA:14517			
+VCCF:1000191	caudal pancreatic artery						UBERON:0001151		
+VCCF:1000192	dorsal pancreatic artery						UBERON:0001150		
+VCCF:1000192	dorsal pancreatic artery						UBERON:0001069		
+VCCF:1000192	dorsal pancreatic artery						FMA:14517		
+VCCF:1000194	greater pancreatic artery						UBERON:0001150		
+VCCF:1000194	greater pancreatic artery						UBERON:0001151		
+VCCF:1000430	inferior pancreaticoduodenal artery						UBERON:0001069		
+VCCF:1000430	inferior pancreaticoduodenal artery						UBERON:0010373		
+VCCF:1000204	interlobular artery of pancreas	UBERON:0018235							
+VCCF:1000204	interlobular artery of pancreas								
+VCCF:1000726	interlobular vein of pancreas	UBERON:0018235							
+VCCF:1000726	interlobular vein of pancreas								
+VCCF:1000206	intralobular arteriole of pancreas		UBERON:0007324						
+VCCF:1000206	intralobular arteriole of pancreas	UBERON:0000017							
+VCCF:1000728	intralobular venule of pancreas		UBERON:0007324						
+VCCF:1000728	intralobular venule of pancreas	UBERON:0000017							
+VCCF:1000205	lobular artery of pancreas								
+VCCF:1000205	lobular artery of pancreas						UBERON:0007324		
+VCCF:1000207	lobular capillary of pancreas		UBERON:0000017						
+VCCF:1000207	lobular capillary of pancreas			UBERON:0001263					
+VCCF:1000727	lobular vein of pancreas								
+VCCF:1000727	lobular vein of pancreas					UBERON:0007324			
+VCCF:1000208	pancreatic islet afferent arteriole	UBERON:0000016							
+VCCF:1000208	pancreatic islet afferent arteriole								UBERON:0000006
+VCCF:1000209	pancreatic islet capillary		UBERON:0000016						
+VCCF:1000209	pancreatic islet capillary			UBERON:0000006					
+VCCF:1000724	pancreatic tributary of splenic vein					UBERON:0001150			
+VCCF:1000724	pancreatic tributary of splenic vein					FMA:14517			
+VCCF:1000724	pancreatic tributary of splenic vein					UBERON:0001151			
+VCCF:1000216	periductal arteriole of accessory pancreatic duct						UBERON:0005429		
+VCCF:1000213	periductal arteriole of interlobular duct of pancreas						FMA16005		
+VCCF:1000218	periductal arteriole of main pancreatic duct						UBERON:0001064		
+VCCF:1000215	periductal branch of interlobular artery of pancreas								
+VCCF:1000730	periductal branch of interlobular vein of pancreas								
+VCCF:1000212	periductal branch of lobular artery of pancreas		UBERON:0007324						
+VCCF:1000212	periductal branch of lobular artery of pancreas	UBERON:0001978							
+VCCF:1000729	periductal branch of lobular vein of pancreas		UBERON:0007324						
+VCCF:1000729	periductal branch of lobular vein of pancreas	UBERON:0001978							
+VCCF:1000217	periductal capillary of accessory pancreatic duct			UBERON:0005429					
+VCCF:1000210	periductal capillary of intercalated duct of pancreas			UBERON:0014726					
+VCCF:1000214	periductal capillary of interlobular duct of pancreas			FMA16005					
+VCCF:1000211	periductal capillary of intralobular duct of panceas			FMA16015					
+VCCF:1000219	periductal capillary of main pancreatic duct			UBERON:0001064					
+VCCF:1000432	posterior inferior pancreaticoduodenal artery						UBERON:0001069		
+VCCF:1000432	posterior inferior pancreaticoduodenal artery						UBERON:0010373		
+VCCF:1000743	posterior inferior pancreaticoduodenal vein					UBERON:0001069			
+VCCF:1000743	posterior inferior pancreaticoduodenal vein					UBERON:0010373			
+VCCF:1000168	posterior superior pancreaticoduodenal artery						FMA:14517		
+VCCF:1000713	posterior superior pancreaticoduodenal vein					UBERON:0001069			
+VCCF:1000713	posterior superior pancreaticoduodenal vein					FMA:14517			
+VCCF:1000166	superior pancreaticoduodenal artery						UBERON:0001069		
+VCCF:1000193	transverse pancreatic artery						UBERON:0001150		

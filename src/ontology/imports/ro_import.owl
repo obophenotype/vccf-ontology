@@ -7,14 +7,14 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/vccf/imports/ro_import.owl>
-<http://purl.obolibrary.org/obo/vccf/releases/2023-04-12/imports/ro_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/description> "The OBO Relations Ontology (RO) is a collection of OWL relations (ObjectProperties) intended for use across a wide variety of biological ontologies."@en)
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro-base.owl>)
-Annotation(<http://purl.org/dc/elements/1.1/title> "OBO Relations Ontology"@en)
+<http://purl.obolibrary.org/obo/vccf/releases/2023-10-12/imports/ro_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ro/releases/2023-08-18/ro-base.owl>)
 Annotation(<http://purl.org/dc/elements/1.1/type> <http://purl.obolibrary.org/obo/IAO_8000001>)
+Annotation(<http://purl.org/dc/terms/description> "The OBO Relations Ontology (RO) is a collection of OWL relations (ObjectProperties) intended for use across a wide variety of biological ontologies."@en)
 Annotation(<http://purl.org/dc/terms/license> <https://creativecommons.org/publicdomain/zero/1.0/>)
-Annotation(owl:versionInfo "2023-02-22")
-Annotation(owl:versionInfo "2023-04-12")
+Annotation(<http://purl.org/dc/terms/title> "OBO Relations Ontology"@en)
+Annotation(owl:versionInfo "2023-08-18")
+Annotation(owl:versionInfo "2023-10-12")
 Annotation(<http://xmlns.com/foaf/0.1/homepage> " https://github.com/oborel/obo-relations/"^^xsd:anyURI)
 
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
@@ -33,6 +33,8 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000086>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000087>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000091>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000092>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001015>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001025>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002013>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002014>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002015>))
@@ -48,6 +50,7 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002090>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002131>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002162>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002170>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002178>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002180>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002211>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002212>))
@@ -72,6 +75,7 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002334>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002335>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002336>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002352>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002379>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002404>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002405>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002407>))
@@ -126,11 +130,12 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0019001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0019002>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000589>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/description>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/title>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/type>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
 Declaration(AnnotationProperty(<http://xmlns.com/foaf/0.1/homepage>))
@@ -208,6 +213,16 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000092> "disposition of"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000092> <http://purl.obolibrary.org/obo/RO_0000052>)
 
+# Object Property: <http://purl.obolibrary.org/obo/RO_0001015> (location of)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0001015> "a relation between two independent continuants, the location and the target, in which the target is entirely within the location"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001015> "location of"@en)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0001025> (located in)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0001025> "a relation between two independent continuants, the target and the location, in which the target is entirely within the location"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001025> "located in"@en)
+
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002013> (has regulatory component activity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002013> "A 'has regulatory component activity' B if A and B are GO molecular functions (GO_0003674), A has_component B and A is regulated by B.")
@@ -247,19 +262,19 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002022> <http://purl.obo
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002023> (directly negatively regulated by)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dos") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002023> "Process(P2) is directly negatively regulated by process(P1) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P2 directly negatively regulated by P1.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-7073-9172>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002023> "Process(P2) is directly negatively regulated by process(P1) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P2 directly negatively regulated by P1.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002023> "directly negatively regulated by")
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002023> <http://purl.obolibrary.org/obo/RO_0002022>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002024> (directly positively regulated by)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dos") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002024> "Process(P2) is directly postively regulated by process(P1) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P2 is directly postively regulated by P1.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-7073-9172>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002024> "Process(P2) is directly postively regulated by process(P1) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P2 is directly postively regulated by P1.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002024> "directly positively regulated by")
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002024> <http://purl.obolibrary.org/obo/RO_0002022>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002025> (has effector activity)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dos") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002025> "A 'has effector activity' B if A and B are GO molecular functions (GO_0003674),  A 'has component activity' B and B is the effector (output function) of B.  Each compound function has only one effector activity.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-7073-9172>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002025> "A 'has effector activity' B if A and B are GO molecular functions (GO_0003674),  A 'has component activity' B and B is the effector (output function) of B.  Each compound function has only one effector activity.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002025> "has effector activity")
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002025> <http://purl.obolibrary.org/obo/RO_0002017>)
 
@@ -295,6 +310,12 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obo
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002170> "a is connected to b if and only if a and b are discrete structure, and there exists some connecting structure c, such that c connects a and b")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002170> "connected to"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002170> <http://purl.obolibrary.org/obo/RO_0002323>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002178> (supplies)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002178> "Relation between an arterial structure and another structure, where the arterial structure acts as a conduit channeling fluid, substance or energy.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002178> "supplies"@en)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/RO_0002170>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002180> (has component)
 
@@ -446,6 +467,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002352> "input of"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002352> <http://purl.obolibrary.org/obo/RO_0000056>)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002352> <http://purl.obolibrary.org/obo/RO_0002328>)
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002379> (spatially coextensive with)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002379> "x spatially_coextensive_with y if and inly if x and y have the same location")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002379> "spatially coextensive with"@en)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002379> <http://purl.obolibrary.org/obo/RO_0002131>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002404> (causally downstream of)
 
@@ -756,18 +783,21 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0017001> "devi
 # Object Property: <http://purl.obolibrary.org/obo/RO_0019000> (regulates characteristic)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0019000> "A relationship that holds between a process and a characteristic in which process (P) regulates characteristic (C) iff: P results in the existence of C OR affects the intensity or magnitude of C.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/RO_0019000> <https://orcid.org/0000-0002-8688-6599>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0019000> "regulates characteristic")
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0019000> <http://purl.obolibrary.org/obo/RO_0002410>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0019001> (positively regulates characteristic)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0019001> "A relationship that holds between a process and a characteristic in which process (P) positively regulates characteristic (C) iff: P results in an increase in the intensity or magnitude of C.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/RO_0019001> <https://orcid.org/0000-0002-8688-6599>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0019001> "positively regulates characteristic")
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0019001> <http://purl.obolibrary.org/obo/RO_0019000>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0019002> (negatively regulates characteristic)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0019002> "A relationship that holds between a process and a characteristic in which process (P) negatively regulates characteristic (C) iff: P results in a decrease in the intensity or magnitude of C.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/RO_0019002> <https://orcid.org/0000-0002-8688-6599>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0019002> "negatively regulates characteristic")
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0019002> <http://purl.obolibrary.org/obo/RO_0019000>)
 
@@ -778,6 +808,8 @@ SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/RO_0002131>) <http://purl.obolibrary.org/obo/RO_0002131>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/RO_0002162>) <http://purl.obolibrary.org/obo/RO_0002162>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/RO_0002215>) <http://purl.obolibrary.org/obo/RO_0002584>)
+SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/BFO_0000050>) <http://purl.obolibrary.org/obo/RO_0001025>)
+SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0001025> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0001025>)) <http://purl.obolibrary.org/obo/RO_0002379>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/BFO_0000050>) <http://purl.obolibrary.org/obo/RO_0002131>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/RO_0002025>) <http://purl.obolibrary.org/obo/RO_0002211>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/RO_0019000>) <http://purl.obolibrary.org/obo/RO_0019000>)

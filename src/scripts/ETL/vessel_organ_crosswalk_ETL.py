@@ -8,19 +8,25 @@ def crosswalk_template(crosswalk_data, vessels_data) -> pd.DataFrame:
     template = [
         {
             "Vessel": "ID",
+            "Label": "LABEL",
             "overlaps": "SC overlaps some %",
-            "supplies": "SC supplies some %",
-            "part_of": "SC 'part of' some %",
+            "part_of": "SC 'part_of' some %",
             "directly_supplies_drains": "SC directly_supplies_drains some %",
-            "connected_to": "SC 'connected to' some %", 
+            "connected_to": "SC 'connected to' some %",
+            "drains": "SC drains some %",
+            "supplies": "SC supplies some %",
+            "located_in": "SC located_in some %",
         }
     ]
     vccf_id = generate_id(2000000, 2999999)
     # print(crosswalk_data)
     for _, row in crosswalk_data.iterrows():
-        r = {}
-        r["Vessel"] = search_id(vessels_data, row["Vessel"])
-        r[f"{row['Relationship']}"] = row["BodySubPartID"] if row["BodySubPartID"] else next(vccf_id)
+        if row["Relationship"] != "nan":
+            r = {}
+            r["Vessel"] = search_id(vessels_data, row["Vessel"])
+            r["Label"] = row["Vessel"]
+            r[f"{row['Relationship']}"] = row["BodySubPartID"] if row["BodySubPartID"] else next(vccf_id)
+            template.append(r)
         
     return pd.DataFrame.from_records(template)
 

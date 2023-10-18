@@ -20,6 +20,9 @@ import_group:
       use_base: TRUE
       module_type: minimal
     - id: ro
+      base_iris:
+        - http://purl.obolibrary.org/obo/RO_
+        - http://purl.obolibrary.org/obo/BFO_
       use_base: TRUE
       module_type: minimal
     - id: omo
@@ -27,10 +30,15 @@ import_group:
 components:
   products:
     - use_template: TRUE
-      template_options: "--input imports/ro_import.owl --prefix 'RO: http://purl.obolibrary.org/obo/RO_' --prefix 'VCCF: http://purl.obolibrary.org/obo/VCCF_'"
+      template_options: "--input imports/ro_import.owl --prefix 'RO: http://purl.obolibrary.org/obo/RO_' --prefix 'BFO: http://purl.obolibrary.org/obo/BFO_' --prefix 'VCCF: http://purl.obolibrary.org/obo/VCCF_'"
       templates: 
         - vessel_relation.tsv
       filename: vessel_relation.owl
+    - use_template: TRUE
+      template_options: "--input imports/ro_import.owl --prefix 'RO: http://purl.obolibrary.org/obo/RO_' --prefix 'BFO: http://purl.obolibrary.org/obo/BFO_' --prefix 'VCCF: http://purl.obolibrary.org/obo/VCCF_'"
+      templates:
+        - vessel_organ_crosswalk.tsv
+      filename: vessel_organ_crosswalk.owl
 robot_java_args: "-Xmx12G"
 robot_report:
   use_labels: TRUE
