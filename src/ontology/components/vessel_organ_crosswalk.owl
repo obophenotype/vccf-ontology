@@ -1,14 +1,1943 @@
-<?xml version="1.0"?>
-<rdf:RDF 
-     xml:base="http://purl.obolibrary.org/obo/"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vccf/components/vessel_organ_crosswalk.owl"/>
+Prefix(:=<http://purl.obolibrary.org/obo/vccf/components/vessel_organ_crosswalk.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
-    <!-- This is a placeholder, it will be regenerated when makefile is first executed -->
-</rdf:RDF>
+
+Ontology(<http://purl.obolibrary.org/obo/vccf/components/vessel_organ_crosswalk.owl>
+<http://purl.obolibrary.org/obo/vccf/releases/2023-11-24/components/vessel_organ_crosswalk.owl>
+Annotation(owl:versionInfo "2023-11-24")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_14517>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_37379>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_37682>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_37683>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_38453>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_38524>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_38615>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_38616>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_38637>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_7338>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_7339>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_7359>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_7360>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_7361>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_7362>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_7363>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_7364>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_7365>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_7366>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_7373>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_7374>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_7375>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_7376>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_7377>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_7378>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_7379>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_7380>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FMA_84472>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000362>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000976>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001069>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001103>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001129>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001150>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001151>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001225>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001229>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001230>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001247>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001248>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001250>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001265>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001266>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001284>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001294>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001423>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001424>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001476>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001477>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001478>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001501>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001503>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001505>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001506>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001507>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001509>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001520>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001521>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001522>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001523>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001524>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001525>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001526>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001527>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001978>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002106>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002107>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002110>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002125>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002167>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002168>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002170>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002171>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002174>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002189>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002320>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002383>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002401>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002962>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002989>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003222>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003228>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003234>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004201>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004202>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004538>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004539>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004641>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005271>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005353>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0006505>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0006635>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0006849>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0007196>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0007324>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0007612>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0007614>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0008446>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0008465>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0008716>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0008874>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0008952>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0008953>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0010369>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0010373>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0010496>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0011011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0011012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0016493>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0017618>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0018235>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0036172>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0036173>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0036174>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0036176>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000069>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000084>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000091>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000134>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000162>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000166>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000167>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000168>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000170>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000171>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000177>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000178>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000182>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000186>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000190>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000191>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000192>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000193>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000194>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000195>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000198>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000199>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000200>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000204>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000205>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000206>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000207>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000208>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000209>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000210>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000211>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000212>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000213>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000214>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000215>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000216>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000217>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000218>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000219>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000221>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000224>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000226>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000227>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000237>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000238>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000241>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000242>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000270>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000273>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000276>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000280>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000282>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000307>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000310>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000311>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000317>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000322>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000355>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000379>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000380>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000381>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000382>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000383>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000386>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000394>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000395>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000396>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000398>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000400>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000401>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000402>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000403>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000404>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000405>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000406>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000407>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000408>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000412>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000413>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000414>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000415>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000416>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000419>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000430>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000431>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000432>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000440>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000442>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000443>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000444>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000445>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000446>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000447>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000448>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000449>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000450>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000455>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000457>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000458>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000459>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000460>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000461>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000462>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000463>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000464>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000465>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000469>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000475>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000476>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000477>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000481>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000482>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000488>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000491>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000494>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000497>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000505>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000509>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000511>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000512>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000514>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000515>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000516>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000521>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000522>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000542>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000543>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000544>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000545>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000546>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000548>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000551>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000554>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000556>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000557>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000559>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000577>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000587>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000588>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000695>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000699>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000701>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000704>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000705>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000708>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000709>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000710>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000712>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000713>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000716>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000724>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000726>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000727>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000728>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000729>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000730>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000731>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000732>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000734>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000743>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000746>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000747>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000748>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000754>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000772>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000777>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000778>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000779>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000781>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000783>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000789>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000797>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000810>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000962>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000963>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000964>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000965>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000966>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000967>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000968>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000969>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000970>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000971>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000972>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000973>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000974>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000976>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000977>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000979>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000980>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000981>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000982>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000983>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000984>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000985>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000986>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000987>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000988>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000989>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000990>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000991>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000992>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000014>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000042>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000045>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000046>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000048>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000054>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000055>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000056>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000057>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000058>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000060>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000062>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000063>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002131>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002170>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002178>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002179>))
+Declaration(DataProperty(<http://purl.obolibrary.org/obo/VCCF_4013504>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/FMA_16015>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/FMA_7408>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0000006>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0001213>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0001289>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0001290>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0001291>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0001292>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0002169>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0002173>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0002177>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0002178>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0002183>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0002184>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0002187>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0002188>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0002299>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0002335>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0003126>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0004193>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0004196>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0004197>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0004203>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0004204>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0004205>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0005097>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0005452>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0005750>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0006729>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0006852>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0012067>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0013485>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_0014726>))
+Declaration(Datatype(<http://purl.obolibrary.org/obo/UBERON_8410043>))
+
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000001> (left inferior pulmonary vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000001> "left inferior pulmonary vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0002168>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000002> (left superior pulmonary vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000002> "left superior pulmonary vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0002168>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000004> (segmental pulmonary vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000004> "segmental pulmonary vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000005> (subsegmental pulmonary vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000005> "subsegmental pulmonary vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/FMA_84472>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000006> (pulmonary venule)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000006> "pulmonary venule")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0010369>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000007> (right inferior pulmonary vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000007> "right inferior pulmonary vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000008> (right superior pulmonary vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000008> "right superior pulmonary vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000031> (facial artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000031> "facial artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000050> (buccal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000050> "buccal artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000069> (occipital artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000069> "occipital artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000084> (superficial temporal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000084> "superficial temporal artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000091> (superior thyroid artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000091> "superior thyroid artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000134> (ophthalmic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000134> "ophthalmic artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000162> (common hepatic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000162> "common hepatic artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000162> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0002107>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000166> (superior pancreaticoduodenal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000166> "superior pancreaticoduodenal artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000166> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001069>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000167> (anterior superior pancreaticoduodenal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000167> "anterior superior pancreaticoduodenal artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000167> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_14517>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000167> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001069>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000168> (posterior superior pancreaticoduodenal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000168> "posterior superior pancreaticoduodenal artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000168> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_14517>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000170> (proper hepatic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000170> "proper hepatic artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0002107>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000171> (left hepatic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000171> "left hepatic artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000171> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0002107>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000177> (hepatic arteriole)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000177> "hepatic arteriole")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000177> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0004647>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000178> (right hepatic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000178> "right hepatic artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000182> (cystic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000182> "cystic artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000182> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0002110>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000186> (right artery of caudate lobe)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000186> "right artery of caudate lobe")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000190> (splenic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000190> "splenic artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000190> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0002106>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000191> (caudal pancreatic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000191> "caudal pancreatic artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000191> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001151>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000192> (dorsal pancreatic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000192> "dorsal pancreatic artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000192> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_14517>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000192> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001069>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000192> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001150>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000193> (transverse pancreatic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000193> "transverse pancreatic artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000193> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001150>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000194> (greater pancreatic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000194> "greater pancreatic artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000194> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001150>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000194> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001151>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000195> (inferior lobar artery of spleen)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000195> "inferior lobar artery of spleen")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000195> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001248>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000195> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0004641>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000198> (segmental branch of lobar artery of spleen)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000198> "segmental branch of lobar artery of spleen")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000198> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0004641>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000199> (spleen trabecular artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000199> "spleen trabecular artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000199> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001265>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000200> (spleen central arteriole)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000200> "spleen central arteriole")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000200> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001251>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000200> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001959>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000200> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001960>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000200> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0004042>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000200> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0005353>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000204> (interlobular artery of pancreas)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000204> "interlobular artery of pancreas")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000204> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0018235>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000205> (lobular artery of pancreas)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000205> "lobular artery of pancreas")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000205> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0007324>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000206> (intralobular arteriole of pancreas)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000206> "intralobular arteriole of pancreas")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000206> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007324>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000206> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0000017>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000206> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001263>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000207> (lobular capillary of pancreas)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000207> "lobular capillary of pancreas")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000207> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000017>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000207> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0001263>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000208> (pancreatic islet afferent arteriole)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000208> "pancreatic islet afferent arteriole")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000208> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0000016>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000209> (pancreatic islet capillary)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000209> "pancreatic islet capillary")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000209> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000016>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000209> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0000006>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000210> (periductal capillary of intercalated duct of pancreas)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000210> "periductal capillary of intercalated duct of pancreas")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000210> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0014726>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000211> (periductal capillary of intralobular duct of panceas)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000211> "periductal capillary of intralobular duct of panceas")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000211> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/FMA_16015>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000212> (periductal branch of lobular artery of pancreas)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000212> "periductal branch of lobular artery of pancreas")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000212> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007324>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000212> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001978>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000213> (periductal arteriole of interlobular duct of pancreas)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000213> "periductal arteriole of interlobular duct of pancreas")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000213> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_16005>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000214> (periductal capillary of interlobular duct of pancreas)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000214> "periductal capillary of interlobular duct of pancreas")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000214> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/FMA_16005>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000215> (periductal branch of interlobular artery of pancreas)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000215> "periductal branch of interlobular artery of pancreas")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000216> (periductal arteriole of accessory pancreatic duct)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000216> "periductal arteriole of accessory pancreatic duct")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000216> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0005429>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000217> (periductal capillary of accessory pancreatic duct)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000217> "periductal capillary of accessory pancreatic duct")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000217> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0005429>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000218> (periductal arteriole of main pancreatic duct)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000218> "periductal arteriole of main pancreatic duct")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000218> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001064>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000219> (periductal capillary of main pancreatic duct)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000219> "periductal capillary of main pancreatic duct")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000219> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0001064>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000221> (superior lobar artery of spleen)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000221> "superior lobar artery of spleen")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000221> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001248>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000221> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0004641>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000224> (common femoral artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000224> "common femoral artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000226> (deep femoral artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000226> "deep femoral artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000227> (lateral femoral circumflex artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000227> "lateral femoral circumflex artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000237> (superficial femoral artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000237> "superficial femoral artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000238> (descending genicular artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000238> "descending genicular artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000241> (popliteal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000241> "popliteal artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000242> (anterior tibial artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000242> "anterior tibial artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000270> (lateral sural artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000270> "lateral sural artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000273> (medial sural artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000273> "medial sural artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000276> (peroneal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000276> "peroneal artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000280> (posterior tibial artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000280> "posterior tibial artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000282> (lateral plantar artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000282> "lateral plantar artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000307> (medial plantar artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000307> "medial plantar artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000310> (deep circumflex iliac artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000310> "deep circumflex iliac artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000311> (inferior epigastric artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000311> "inferior epigastric artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000317> (inferior gluteal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000317> "inferior gluteal artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000322> (internal pudendal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000322> "internal pudendal artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000355> (superior gluteal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000355> "superior gluteal artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000379> (left lumbar artery 1)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000379> "left lumbar artery 1")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000380> (left lumbar artery 2)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000380> "left lumbar artery 2")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000381> (left lumbar artery 3)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000381> "left lumbar artery 3")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000382> (left lumbar artery 4)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000382> "left lumbar artery 4")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000383> (left lumbar artery 5)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000383> "left lumbar artery 5")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000386> (left renal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000386> "left renal artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000386> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0004538>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000394> (anterior inferior segmental renal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000394> "anterior inferior segmental renal artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000394> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0008716>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000395> (anterior superior segmental renal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000395> "anterior superior segmental renal artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000395> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0008716>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000396> (inferior segmental renal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000396> "inferior segmental renal artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000396> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0008716>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000398> (posterior segmental renal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000398> "posterior segmental renal artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000398> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0008716>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000400> (interlobar renal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000400> "interlobar renal artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000400> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001225>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000400> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001284>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000401> (arcuate renal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000401> "arcuate renal artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000401> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001225>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000401> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0005271>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000402> (interlobular renal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000402> "interlobular renal artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000402> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001225>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000402> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002189>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000403> (renal afferent arteriole)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000403> "renal afferent arteriole")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001225>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001285>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001229>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001230>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000404> (glomerular capillary)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000404> "glomerular capillary")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000404> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001225>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000404> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001229>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000404> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001285>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000404> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002170> <http://purl.obolibrary.org/obo/UBERON_0002320>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000404> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0006852>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000405> (renal efferent arteriole)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000405> "renal efferent arteriole")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001225>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001285>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001229>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001230>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000406> (peritubular capillary)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000406> "peritubular capillary")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000406> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001225>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000406> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0001285>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000406> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0001290>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000406> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0001291>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000406> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0001292>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000406> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0002335>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000406> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0004196>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000406> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0004197>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000406> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0004203>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000406> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0005097>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000406> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0005750>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000407> (vasa recta of kidney)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000407> "vasa recta of kidney")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000362>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001294>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000407> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0001285>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000407> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0004193>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000408> (superior segmental renal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000408> "superior segmental renal artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0008716>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000412> (right lumbar artery 1)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000412> "right lumbar artery 1")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000413> (right lumbar artery 2)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000413> "right lumbar artery 2")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000414> (right lumbar artery 3)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000414> "right lumbar artery 3")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000415> (right lumbar artery 4)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000415> "right lumbar artery 4")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000416> (right lumbar artery 5)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000416> "right lumbar artery 5")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000419> (right renal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000419> "right renal artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000419> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0004539>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000430> (inferior pancreaticoduodenal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000430> "inferior pancreaticoduodenal artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000430> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001069>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000430> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0010373>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000431> (anterior inferior pancreaticoduodenal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000431> "anterior inferior pancreaticoduodenal artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000431> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001069>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000431> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0010373>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000432> (posterior inferior pancreaticoduodenal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000432> "posterior inferior pancreaticoduodenal artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001069>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000432> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0010373>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000440> (inferior left bronchial artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000440> "inferior left bronchial artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000440> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0007196>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000442> (left posterior intercostal artery 10)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000442> "left posterior intercostal artery 10")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000443> (left posterior intercostal artery 11)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000443> "left posterior intercostal artery 11")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000444> (left posterior intercostal artery 3)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000444> "left posterior intercostal artery 3")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000445> (left posterior intercostal artery 4)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000445> "left posterior intercostal artery 4")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000446> (left posterior intercostal artery 5)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000446> "left posterior intercostal artery 5")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000447> (left posterior intercostal artery 6)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000447> "left posterior intercostal artery 6")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000448> (left posterior intercostal artery 7)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000448> "left posterior intercostal artery 7")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000449> (left posterior intercostal artery 8)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000449> "left posterior intercostal artery 8")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000450> (left posterior intercostal artery 9)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000450> "left posterior intercostal artery 9")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000455> (right bronchial artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000455> "right bronchial artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000455> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0007196>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000457> (right posterior intercostal artery 10)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000457> "right posterior intercostal artery 10")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000458> (right posterior intercostal artery 11)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000458> "right posterior intercostal artery 11")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000459> (right posterior intercostal artery 3)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000459> "right posterior intercostal artery 3")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000460> (right posterior intercostal artery 4)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000460> "right posterior intercostal artery 4")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000461> (right posterior intercostal artery 5)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000461> "right posterior intercostal artery 5")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000462> (right posterior intercostal artery 6)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000462> "right posterior intercostal artery 6")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000463> (right posterior intercostal artery 7)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000463> "right posterior intercostal artery 7")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000464> (right posterior intercostal artery 8)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000464> "right posterior intercostal artery 8")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000465> (right posterior intercostal artery 9)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000465> "right posterior intercostal artery 9")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000469> (superior left bronchial artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000469> "superior left bronchial artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000469> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0007196>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000475> (anterior humeral circumflex artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000475> "anterior humeral circumflex artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000475> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0000976>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000476> (brachial artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000476> "brachial artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000476> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_37682>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000476> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_37683>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000476> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001505>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000476> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001506>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000476> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001507>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000477> (deep brachial artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000477> "deep brachial artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000477> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001509>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000477> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0002989>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000481> (radial artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000481> "radial artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000481> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_38637>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000481> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001423>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000481> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001424>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000481> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001521>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000481> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001524>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000481> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001525>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000481> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0003222>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000482> (deep palmar arch)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000482> "deep palmar arch")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000482> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001501>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000482> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001503>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000482> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0002962>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000482> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0006505>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000488> (fourth dorsal metacarpal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000488> "fourth dorsal metacarpal artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000488> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001503>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000491> (second dorsal metacarpal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000491> "second dorsal metacarpal artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000491> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001503>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000494> (third dorsal metacarpal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000494> "third dorsal metacarpal artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000494> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001503>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000497> (first dorsal metacarpal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000497> "first dorsal metacarpal artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000497> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001503>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000505> (radial recurrent artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000505> "radial recurrent artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000505> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001506>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000505> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001524>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000505> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001525>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000505> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0003228>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000505> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0011011>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000509> (superficial palmar branch of radial artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000509> "superficial palmar branch of radial artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_37379>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0008465>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0011012>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000511> (ulnar artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000511> "ulnar artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000511> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001423>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000511> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001424>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000511> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001523>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000511> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0003222>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000512> (anterior ulnar recurrent artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000512> "anterior ulnar recurrent artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000512> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001520>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000514> (anterior interosseous artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000514> "anterior interosseous artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000514> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_38453>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000514> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001423>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000514> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001424>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000514> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001523>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000514> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0008446>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000515> (posterior interosseous artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000515> "posterior interosseous artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000515> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_38524>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000515> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001423>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000515> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001424>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000515> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001526>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000515> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001527>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000515> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0003228>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000515> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0003234>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000515> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0007612>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000515> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0007614>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000515> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0017618>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000516> (deep palmar branch of ulnar artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000516> "deep palmar branch of ulnar artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000516> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0036173>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000516> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0036174>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000516> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0036176>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000521> (posterior ulnar recurrent artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000521> "posterior ulnar recurrent artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000521> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_38615>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000521> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_38616>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000521> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001522>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000521> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0016493>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000522> (superficial palmar arch)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000522> "superficial palmar arch")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000522> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001501>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000522> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0036172>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000542> (lateral thoracic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000542> "lateral thoracic artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000542> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001129>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000543> (posterior humeral circumflex artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000543> "posterior humeral circumflex artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000543> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0000976>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000543> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001476>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000544> (subscapular artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000544> "subscapular artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000544> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001129>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000544> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0006849>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000545> (circumflex scapular artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000545> "circumflex scapular artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000545> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001478>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000545> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0006849>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000545> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0010496>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000546> (thoracodorsal artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000546> "thoracodorsal artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000548> (thoracoacromial artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000548> "thoracoacromial artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000551> (deltoid branch of thoracoacromial artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000551> "deltoid branch of thoracoacromial artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000551> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001476>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000554> (deep cervical artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000554> "deep cervical artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000556> (posterior intercostal artery 1)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000556> "posterior intercostal artery 1")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000557> (posterior intercostal artery 2)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000557> "posterior intercostal artery 2")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000559> (internal thoracic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000559> "internal thoracic artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000577> (inferior thyroid artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000577> "inferior thyroid artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000587> (suprascapular artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000587> "suprascapular artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000587> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001477>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000587> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0002383>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000587> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0006849>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000588> (transverse cervical artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000588> "transverse cervical artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000588> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0006849>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000695> (left hepatic vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000695> "left hepatic vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000699> (central vein of liver)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000699> "central vein of liver")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000699> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0004647>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000701> (hepatic portal venule)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000701> "hepatic portal venule")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000701> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0004647>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000704> (right hepatic portal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000704> "right hepatic portal vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000705> (hepatic portal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000705> "hepatic portal vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000705> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0002107>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000708> (left hepatic portal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000708> "left hepatic portal vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000709> (cystic vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000709> "cystic vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000709> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0002110>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000710> (inferior vein of Sappey)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000710> "inferior vein of Sappey")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000710> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0001247>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000712> (paraumbilical vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000712> "paraumbilical vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000712> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0001103>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000712> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0006635>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000713> (posterior superior pancreaticoduodenal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000713> "posterior superior pancreaticoduodenal vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000713> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/FMA_14517>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000713> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0001069>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000716> (splenic vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000716> "splenic vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000716> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0002106>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000724> (pancreatic tributary of splenic vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000724> "pancreatic tributary of splenic vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000724> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/FMA_14517>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000724> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0001150>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000724> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0001151>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000726> (interlobular vein of pancreas)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000726> "interlobular vein of pancreas")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000726> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0018235>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000727> (lobular vein of pancreas)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000727> "lobular vein of pancreas")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000727> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0007324>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000728> (intralobular venule of pancreas)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000728> "intralobular venule of pancreas")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000728> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007324>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000728> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0000017>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000729> (periductal branch of lobular vein of pancreas)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000729> "periductal branch of lobular vein of pancreas")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000729> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007324>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000729> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001978>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000730> (periductal branch of interlobular vein of pancreas)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000730> "periductal branch of interlobular vein of pancreas")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000731> (spleen trabecular vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000731> "spleen trabecular vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000731> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001265>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000732> (splenic venous sinusoid)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000732> "splenic venous sinusoid")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000732> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0001266>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000734> (anterior inferior pancreaticoduodenal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000734> "anterior inferior pancreaticoduodenal vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000734> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0001069>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000734> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0010373>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000743> (posterior inferior pancreaticoduodenal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000743> "posterior inferior pancreaticoduodenal vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000743> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0001069>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000743> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0010373>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000746> (anterior superior pancreaticoduodenal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000746> "anterior superior pancreaticoduodenal vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000746> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/FMA_14517>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000746> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0001069>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000747> (superior vein of Sappey)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000747> "superior vein of Sappey")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000747> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0001247>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000748> (vein of Burow)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000748> "vein of Burow")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000748> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0001247>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000754> (left renal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000754> "left renal vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000754> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0004538>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000772> (middle hepatic vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000772> "middle hepatic vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000777> (interlobar renal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000777> "interlobar renal vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000777> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001225>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000777> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001284>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000778> (arcuate renal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000778> "arcuate renal vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000778> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001225>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000778> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0005271>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000779> (interlobular renal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000779> "interlobular renal vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000779> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001225>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000779> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002189>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000781> (straight venule of kidney)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000781> "straight venule of kidney")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000781> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001225>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000781> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002189>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000783> (right hepatic vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000783> "right hepatic vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000789> (right renal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000789> "right renal vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000789> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0004539>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000797> (left bronchial vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000797> "left bronchial vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000797> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0007196>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000810> (right bronchial vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000810> "right bronchial vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000810> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0007196>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000962> (pulmonary trunk)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000962> "pulmonary trunk")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000962> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000962> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0002168>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000963> (left pulmonary artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000963> "left pulmonary artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000963> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0002168>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000964> (anterior segmental artery of left lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000964> "anterior segmental artery of left lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000964> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000964> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008952>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000964> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000964> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_7373>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000965> (apicoposterior segmental artery of left lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000965> "apicoposterior segmental artery of left lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000965> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000965> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008952>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000965> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000966> (left interlobar pulmonary artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000966> "left interlobar pulmonary artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000966> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000966> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000966> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0008952>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000966> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0008953>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000967> (basal segmental arterial trunk of left lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000967> "basal segmental arterial trunk of left lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000967> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000967> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000967> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0008953>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000968> (anterior basal segmental artery of left lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000968> "anterior basal segmental artery of left lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000968> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000968> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008953>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000968> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000968> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_7378>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000969> (lateral basal segmental artery of left lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000969> "lateral basal segmental artery of left lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000969> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000969> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008953>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000969> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000969> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_7379>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000970> (medial basal segmental artery of left lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000970> "medial basal segmental artery of left lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000970> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000970> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008953>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000970> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000970> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_7377>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000971> (posterior basal segmental artery of left lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000971> "posterior basal segmental artery of left lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000971> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000971> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008953>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000971> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000971> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_7380>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000972> (inferior lingular segmental artery of left lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000972> "inferior lingular segmental artery of left lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000972> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000972> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008952>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000972> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000972> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_7375>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000973> (superior lingular segmental artery of left lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000973> "superior lingular segmental artery of left lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000973> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000973> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008952>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000973> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000973> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_7374>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000974> (superior segmental artery of left lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000974> "superior segmental artery of left lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000974> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000974> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008953>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000974> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000974> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_7376>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000976> (subsegmental pulmonary artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000976> "subsegmental pulmonary artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000977> (pulmonary arteriole)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000977> "pulmonary arteriole")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000977> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0010369>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000979> (right pulmonary artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000979> "right pulmonary artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000979> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000980> (right interlobar pulmonary artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000980> "right interlobar pulmonary artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000980> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000980> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000980> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0002171>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000980> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0002174>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000981> (basal segmental arterial trunk of right lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000981> "basal segmental arterial trunk of right lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000981> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000981> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000981> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0002171>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000982> (anterior basal segmental artery of right lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000982> "anterior basal segmental artery of right lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000982> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000982> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002171>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000982> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000982> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_7364>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000983> (lateral basal segmental artery of right lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000983> "lateral basal segmental artery of right lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000983> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000983> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002171>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000983> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000983> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_7363>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000984> (medial basal segmental artery of right lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000984> "medial basal segmental artery of right lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000984> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000984> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002171>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000984> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000984> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_7365>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000985> (posterior basal segmental artery of right lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000985> "posterior basal segmental artery of right lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000985> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000985> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002171>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000985> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000985> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_7362>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000986> (lateral segmental artery of right lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000986> "lateral segmental artery of right lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000986> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000986> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002174>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000986> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000986> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_7361>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000987> (medial segmental artery of right lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000987> "medial segmental artery of right lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000987> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000987> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002174>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000987> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000987> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_7360>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000988> (posterior segmental artery of right lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000988> "posterior segmental artery of right lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000988> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000988> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002170>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000988> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000988> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_7339>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000989> (superior segmental artery of right lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000989> "superior segmental artery of right lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000989> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000989> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002171>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000989> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000989> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_7366>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000990> (truncus anterior of right pulmonary artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000990> "truncus anterior of right pulmonary artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000990> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000990> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000990> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0002170>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000991> (anterior segmental artery of right lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000991> "anterior segmental artery of right lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000991> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000991> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002170>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000991> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000991> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_7359>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000992> (apical segmental artery of right lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000992> "apical segmental artery of right lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000992> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000992> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002170>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000992> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000992> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/FMA_7338>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000000> (alveolar capillary)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000000> "alveolar capillary")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008874>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0010369>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000000> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0002169>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000000> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0002173>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000000> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0002188>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000000> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0002299>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000001> (anterior inferior segmental hepatic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000001> "anterior inferior segmental hepatic artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000002> (anterior inferior segmental hepatic portal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000002> "anterior inferior segmental hepatic portal vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000003> (anterior inferior segmental hepatic vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000003> "anterior inferior segmental hepatic vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000004> (anterior superior segmental hepatic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000004> "anterior superior segmental hepatic artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000005> (anterior superior segmental hepatic portal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000005> "anterior superior segmental hepatic portal vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000006> (anterior superior segmental hepatic vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000006> "anterior superior segmental hepatic vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000007> (apicoanterior trunk of left pulmonary artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000007> "apicoanterior trunk of left pulmonary artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0008952>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000008> (ascending vasa recta of kidney)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000008> "ascending vasa recta of kidney")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000362>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001294>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0004201>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0004202>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000008> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0001285>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000008> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0001289>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000008> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0004204>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000008> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0004205>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000009> (branch of mucous plexus of colon)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000009> "branch of mucous plexus of colon")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000009> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0013485>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000010> (branch of mucous plexus of small intestine)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000010> "branch of mucous plexus of small intestine")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000010> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0001213>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000011> (branch of subpapillary plexus)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000011> "branch of subpapillary plexus")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000012> (branch of superficial white pulp capillary of spleen)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000012> "branch of superficial white pulp capillary of spleen")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000012> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0001959>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000012> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0001960>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000012> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0004042>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000012> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0005196>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000013> (bronchial arteriole)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000013> "bronchial arteriole")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0007196>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000014> (bronchial capillary)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000014> "bronchial capillary")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0007196>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000014> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/FMA_7408>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000014> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0002177>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000014> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0002178>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000014> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0002183>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000014> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0002184>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000014> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0002187>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000014> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0003126>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000014> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0012067>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000014> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_8410043>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000015> (bronchial venule)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000015> "bronchial venule")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0007196>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000016> (descending vasa recta of kidney)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000016> "descending vasa recta of kidney")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000362>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001294>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0004201>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0004202>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000016> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0001285>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000016> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0004204>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000016> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0004205>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000017> (hepatic sinusoid)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000017> "hepatic sinusoid")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000017> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0004647>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000017> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0005452>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000017> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0006729>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000018> (high truncus anterior of right pulmonary artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000018> "high truncus anterior of right pulmonary artery")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002170>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000019> (intra-acinar arteriole)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000019> "intra-acinar arteriole")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008874>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0010369>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000020> (intra-acinar venule)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000020> "intra-acinar venule")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008874>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0010369>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000021> (lateral inferior segmental hepatic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000021> "lateral inferior segmental hepatic artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000022> (lateral inferior segmental hepatic portal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000022> "lateral inferior segmental hepatic portal vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000023> (lateral inferior segmental hepatic vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000023> "lateral inferior segmental hepatic vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000024> (lateral superior segmental hepatic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000024> "lateral superior segmental hepatic artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000025> (lateral superior segmental hepatic portal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000025> "lateral superior segmental hepatic portal vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000026> (lateral superior segmental hepatic vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000026> "lateral superior segmental hepatic vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000027> (left artery of caudate lobe)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000027> "left artery of caudate lobe")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0002107>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000028> (left lateral hepatic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000028> "left lateral hepatic artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000029> (left lateral hepatic portal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000029> "left lateral hepatic portal vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000030> (left medial hepatic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000030> "left medial hepatic artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000031> (left medial hepatic portal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000031> "left medial hepatic portal vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000032> (left portal vein of caudate lobe)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000032> "left portal vein of caudate lobe")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000033> (lingular artery of left lung)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000033> "lingular artery of left lung")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0008952>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000034> (medial inferior segmental hepatic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000034> "medial inferior segmental hepatic artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000035> (medial inferior segmental hepatic portal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000035> "medial inferior segmental hepatic portal vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000036> (medial inferior segmental hepatic vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000036> "medial inferior segmental hepatic vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000037> (medial superior segmental hepatic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000037> "medial superior segmental hepatic artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000038> (medial superior segmental hepatic portal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000038> "medial superior segmental hepatic portal vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000039> (medial superior segmental hepatic vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000039> "medial superior segmental hepatic vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000040> (non-penicillar arteriole of spleen)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000040> "non-penicillar arteriole of spleen")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0005353>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000041> (penicillar arteriole of spleen)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000041> "penicillar arteriole of spleen")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0005353>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000042> (post-alveolar capillary)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000042> "post-alveolar capillary")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008874>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0010369>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000043> (post-sheath open capillary of spleen)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000043> "post-sheath open capillary of spleen")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000043> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001266>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000043> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001250>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000043> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001266>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000044> (posterior inferior segmental hepatic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000044> "posterior inferior segmental hepatic artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000045> (posterior inferior segmental hepatic portal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000045> "posterior inferior segmental hepatic portal vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000046> (posterior inferior segmental hepatic vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000046> "posterior inferior segmental hepatic vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000047> (posterior superior segmental hepatic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000047> "posterior superior segmental hepatic artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000048> (posterior superior segmental hepatic portal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000048> "posterior superior segmental hepatic portal vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000049> (posterior superior segmental hepatic vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000049> "posterior superior segmental hepatic vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000050> (pre-alveolar capillary)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000050> "pre-alveolar capillary")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008874>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0010369>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000051> (prostatic capillary)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000051> "prostatic capillary")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000052> (red pulp venule of spleen)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000052> "red pulp venule of spleen")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002179> <http://purl.obolibrary.org/obo/UBERON_0001250>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000053> (right anterior hepatic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000053> "right anterior hepatic artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000054> (right anterior hepatic portal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000054> "right anterior hepatic portal vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000055> (right portal vein of caudate lobe)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000055> "right portal vein of caudate lobe")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000056> (right posterior hepatic artery)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000056> "right posterior hepatic artery")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000057> (right posterior hepatic portal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000057> "right posterior hepatic portal vein")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000058> (secondary follicle arteriole of spleen)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000058> "secondary follicle arteriole of spleen")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0005196>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000059> (segmental renal vein)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000059> "segmental renal vein")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000059> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0008716>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000060> (sheathed capillary of spleen)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000060> "sheathed capillary of spleen")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0005353>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0005353>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000061> (stellate venule of kidney)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000061> "stellate venule of kidney")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000061> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001225>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000061> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002189>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000062> (superficial white pulp capillary of spleen)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000062> "superficial white pulp capillary of spleen")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000062> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/VCCF_4013504> <http://purl.obolibrary.org/obo/UBERON_0001251>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000063> (thymic capillary)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000063> "thymic capillary")
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_2000063> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0002125>))
+
+
+)
