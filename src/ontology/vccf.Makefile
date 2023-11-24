@@ -23,3 +23,6 @@ $(TEMPLATEDIR)/vessel_organ_crosswalk.tsv: $(TMPDIR)/vessel_organ_crosswalk.csv
 
 .PHONY: update_vessel_organ_crosswalk
 update_vessel_organ_crosswalk: $(TEMPLATEDIR)/vessel_organ_crosswalk.tsv
+
+.PHONY: update_templates
+update_templates: update_vessel_data update_vessel_organ_crosswalk

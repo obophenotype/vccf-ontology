@@ -24,18 +24,17 @@ import_group:
         - http://purl.obolibrary.org/obo/RO_
         - http://purl.obolibrary.org/obo/BFO_
       use_base: TRUE
-      module_type: minimal
     - id: omo
       module_type: mirror
 components:
   products:
     - use_template: TRUE
-      template_options: "--input imports/ro_import.owl --prefix 'RO: http://purl.obolibrary.org/obo/RO_' --prefix 'BFO: http://purl.obolibrary.org/obo/BFO_' --prefix 'VCCF: http://purl.obolibrary.org/obo/VCCF_'"
+      template_options: "--input imports/ro_import.owl --prefix 'VCCF: http://purl.obolibrary.org/obo/VCCF_'"
       templates: 
         - vessel_relation.tsv
       filename: vessel_relation.owl
     - use_template: TRUE
-      template_options: "--input imports/ro_import.owl --prefix 'RO: http://purl.obolibrary.org/obo/RO_' --prefix 'BFO: http://purl.obolibrary.org/obo/BFO_' --prefix 'VCCF: http://purl.obolibrary.org/obo/VCCF_'"
+      template_options: "--input imports/ro_import.owl --prefix 'VCCF: http://purl.obolibrary.org/obo/VCCF_'"
       templates:
         - vessel_organ_crosswalk.tsv
       filename: vessel_organ_crosswalk.owl

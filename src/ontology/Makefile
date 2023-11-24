@@ -335,16 +335,6 @@ $(IMPORTDIR)/uberon_import.owl: $(MIRRORDIR)/uberon.owl $(IMPORTDIR)/uberon_term
 		remove $(patsubst %, --term %, $(ANNOTATION_PROPERTIES)) -T $(IMPORTDIR)/uberon_terms_combined.txt --select complement --select "classes individuals annotation-properties" \
 		$(ANNOTATE_CONVERT_FILE); fi
 
-## Module for ontology: ro
-
-$(IMPORTDIR)/ro_import.owl: $(MIRRORDIR)/ro.owl $(IMPORTDIR)/ro_terms_combined.txt
-	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
-    extract -T $(IMPORTDIR)/ro_terms_combined.txt --copy-ontology-annotations true --force true --method BOT \
-		remove --base-iri http://purl.obolibrary.org/obo/RO_ --base-iri http://purl.obolibrary.org/obo/BFO_ --axioms external --preserve-structure false --trim false \
-		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru \
-		remove $(patsubst %, --term %, $(ANNOTATION_PROPERTIES)) -T $(IMPORTDIR)/ro_terms_combined.txt --select complement --select "classes individuals annotation-properties" \
-		$(ANNOTATE_CONVERT_FILE); fi
-
 ## Module for ontology: omo
 
 $(IMPORTDIR)/omo_import.owl: $(MIRRORDIR)/omo.owl $(IMPORTDIR)/omo_terms_combined.txt
@@ -406,7 +396,7 @@ $(COMPONENTSDIR)/%: | $(COMPONENTSDIR)
 
 
 $(COMPONENTSDIR)/vessel_relation.owl: $(TEMPLATEDIR)/vessel_relation.tsv
-	if [ $(COMP) = true ] ; then $(ROBOT) template --input imports/ro_import.owl --prefix 'RO: http://purl.obolibrary.org/obo/RO_' --prefix 'BFO: http://purl.obolibrary.org/obo/BFO_' --prefix 'VCCF: http://purl.obolibrary.org/obo/VCCF_' \
+	if [ $(COMP) = true ] ; then $(ROBOT) template --input imports/ro_import.owl --prefix 'VCCF: http://purl.obolibrary.org/obo/VCCF_' \
 		$(patsubst %, --template %, $^) \
 		$(ANNOTATE_CONVERT_FILE); fi
 
@@ -414,7 +404,7 @@ $(COMPONENTSDIR)/vessel_relation.owl: $(TEMPLATEDIR)/vessel_relation.tsv
 
 
 $(COMPONENTSDIR)/vessel_organ_crosswalk.owl: $(TEMPLATEDIR)/vessel_organ_crosswalk.tsv
-	if [ $(COMP) = true ] ; then $(ROBOT) template --input imports/ro_import.owl --prefix 'RO: http://purl.obolibrary.org/obo/RO_' --prefix 'BFO: http://purl.obolibrary.org/obo/BFO_' --prefix 'VCCF: http://purl.obolibrary.org/obo/VCCF_' \
+	if [ $(COMP) = true ] ; then $(ROBOT) template --input imports/ro_import.owl --prefix 'VCCF: http://purl.obolibrary.org/obo/VCCF_' \
 		$(patsubst %, --template %, $^) \
 		$(ANNOTATE_CONVERT_FILE); fi
 
