@@ -51,6 +51,7 @@ def crosswalk_template(crosswalk_data, vessels_data) -> pd.DataFrame:
 
     return pd.DataFrame.from_records(template)
 
+
 def main(args: Namespace):
     data = read(args.input)
     vessels_data = read(args.vessels, sep="\t")
