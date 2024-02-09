@@ -11,6 +11,7 @@ def crosswalk_template(crosswalk_data, vessels_data) -> pd.DataFrame:
     template = [
         {
             "Vessel": "ID",
+            "TYPE": "TYPE",
             "Label": "LABEL",
             "overlaps": "SC overlaps some %",
             "part_of": "SC 'part of' some %",
@@ -21,6 +22,14 @@ def crosswalk_template(crosswalk_data, vessels_data) -> pd.DataFrame:
             "located_in": "SC 'located in' some %",
         }
     ]
+
+    # Define directly_supplies_drains Object Property
+    r = {
+        "Vessel": "VCCF:4013504",
+        "TYPE": "owl:ObjectProperty"
+    }
+    template.append(r)
+
     vccf_id = generate_id(2000000, 2999999)
     new_vessels = {}
     for _, row in crosswalk_data.iterrows():
