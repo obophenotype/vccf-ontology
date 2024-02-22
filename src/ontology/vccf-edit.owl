@@ -19,8 +19,6 @@ Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Vasculature Common Coordinate Framework Ontology")
 
-Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_0000000>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/VCCF_4013504>))
 Declaration(AnnotationProperty(dcterms:date))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
@@ -40,27 +38,6 @@ AnnotationAssertion(rdfs:label dcterms:license "license")
 # Annotation Property: dcterms:title (title)
 
 AnnotationAssertion(rdfs:label dcterms:title "title")
-
-
-############################
-#   Object Properties
-############################
-
-# Object Property: <http://purl.obolibrary.org/obo/VCCF_4013504> (directly_supplies_drains)
-
-AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/VCCF_4013504> <https://orcid.org/0000-0002-6523-4866>)
-AnnotationAssertion(dcterms:date <http://purl.obolibrary.org/obo/VCCF_4013504> "2023-10-12T10:28:04Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_4013504> "directly_supplies_drains"@en)
-
-
-
-############################
-#   Classes
-############################
-
-# Class: <http://purl.obolibrary.org/obo/VCCF_0000000> (root node)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_0000000> "root node"@en)
 
 
 )
