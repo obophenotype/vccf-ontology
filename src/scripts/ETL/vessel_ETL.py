@@ -1,6 +1,7 @@
 import argparse
 
 import pandas as pd
+import numpy as np
 from utils import extract, generate_id, load, read, search_id, transform_id
 
 
@@ -23,10 +24,11 @@ def transform_pattern(data: pd.DataFrame) -> pd.DataFrame:
         r['location'] = row['BodyPart']
 
         references = []
-        if 'http' in row['ReferenceURL'] and 'UBERON' not in row['ReferenceURL']:
-            references.append(row['ReferenceURL'])
-        if not pd.isna(row['ReferenceDOI']):
-            references.append(f'DOI:{row["ReferenceDOI"]}')
+        if str(row['ReferenceURL']) != 'nan':
+            if 'http' in row['ReferenceURL'] and 'UBERON' not in row['ReferenceURL']:
+                references.append(row['ReferenceURL'])
+            if not pd.isna(row['ReferenceDOI']):
+                references.append(f'DOI:{row["ReferenceDOI"]}')
 
         r['xrefs'] = '|'.join(references)
 
@@ -43,7 +45,7 @@ def transform_template(
     pattern_data: pd.DataFrame,
     template_data: pd.DataFrame
 ) -> pd.DataFrame:
-    data_template = [{"Vessel": "ID", "branches from": "SC 'connected to' some %"}]
+    data_template = [{"Vessel": "ID", "branches from": "SC 'connecting branch of' some %"}]
     for _, row in template_data.iterrows():
         r = {}
         r['Vessel'] = search_id(pattern_data, row['VesselBaseName'])

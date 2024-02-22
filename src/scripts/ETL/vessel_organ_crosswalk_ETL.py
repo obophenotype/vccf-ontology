@@ -15,20 +15,13 @@ def crosswalk_template(crosswalk_data, vessels_data) -> pd.DataFrame:
             "Label": "LABEL",
             "overlaps": "SC overlaps some %",
             "part_of": "SC 'part of' some %",
-            "directly_supplies_drains": "SC VCCF:4013504 some %",
+            "directly_supplies_drains": "SC 'directly supplies and drains' some %",
             "connected_to": "SC 'connected to' some %",
-            "drains": "SC drains some %",
-            "supplies": "SC supplies some %",
+            "drains": "SC 'vessel drains blood from' some %",
+            "supplies": "SC 'vessel supplies blood to' some %",
             "located_in": "SC 'located in' some %",
         }
     ]
-
-    # Define directly_supplies_drains Object Property
-    r = {
-        "Vessel": "VCCF:4013504",
-        "TYPE": "owl:ObjectProperty"
-    }
-    template.append(r)
 
     vccf_id = generate_id(2000000, 2999999)
     new_vessels = {}
@@ -45,7 +38,8 @@ def crosswalk_template(crosswalk_data, vessels_data) -> pd.DataFrame:
                     vessel_id = f"VCCF:{new_vessels[row['Vessel']]}"
             r = {}
             r["Vessel"] = vessel_id
-            r["Label"] = row["Vessel"]
+            if row["Vessel"] in new_vessels:
+                r["Label"] = row["Vessel"] 
             r[f"{row['Relationship']}"] = row["BodySubPartID"] if row["BodySubPartID"] else next(vccf_id)
             template.append(r)
 
