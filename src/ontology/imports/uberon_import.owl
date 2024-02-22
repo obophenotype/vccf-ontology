@@ -7,7 +7,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/vccf/imports/uberon_import.owl>
-<http://purl.obolibrary.org/obo/vccf/releases/2023-11-24/imports/uberon_import.owl>
+<http://purl.obolibrary.org/obo/vccf/releases/2024-02-22/imports/uberon_import.owl>
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/UBERON_0000104>)
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/UBERON_0001062>)
 Annotation(<http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-5839-6798>)
@@ -49,7 +49,7 @@ Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/wbbt.owl>)
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/xao.owl>)
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/zfa.owl>)
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/uberon/releases/2023-10-27/uberon-base.owl>)
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/uberon/releases/2024-02-20/uberon-base.owl>)
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://uri.neuinfo.org/nif/nifstd>)
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://www.e-lico.eu/public/kupo/kupo.owl>)
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://www.ebi.ac.uk/efo/efo.owl>)
@@ -137,7 +137,6 @@ Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-equivale
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-equivalent> "BILA")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-equivalent> "BSPO")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-equivalent> "CARO")
-Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-equivalent> "EFO")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-equivalent> "GO")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-equivalent> "OG")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-equivalent> "VSAO")
@@ -146,17 +145,18 @@ Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-has-subc
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-has-subclass> "NCIT")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-has-subclass> "OGES")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-has-subclass> "SCTID")
+Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-is_a> "BFO")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-is_a> "VHOG")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-reverse-genus-differentia> "AAO part_of NCBITaxon:8292")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-reverse-genus-differentia> "DHBA part_of NCBITaxon:9606")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-reverse-genus-differentia> "EHDAA2 part_of NCBITaxon:9606")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-reverse-genus-differentia> "EMAPA part_of NCBITaxon:10090")
-Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-reverse-genus-differentia> "FBbt part_of NCBITaxon:7227")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-reverse-genus-differentia> "FBdv part_of NCBITaxon:7227")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-reverse-genus-differentia> "FMA part_of NCBITaxon:9606")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-reverse-genus-differentia> "HAO part_of NCBITaxon:7399")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-reverse-genus-differentia> "HBA part_of NCBITaxon:9606")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-reverse-genus-differentia> "HsapDv part_of NCBITaxon:9606")
+Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-reverse-genus-differentia> "KUPO part_of NCBITaxon:9606")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-reverse-genus-differentia> "MA part_of NCBITaxon:10090")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-reverse-genus-differentia> "MFO part_of NCBITaxon:8089")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-reverse-genus-differentia> "MmusDv part_of NCBITaxon:10090")
@@ -172,8 +172,8 @@ Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-reverse-
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-reverse-genus-differentia> "ZFA part_of NCBITaxon:7954")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-reverse-genus-differentia> "ZFS part_of NCBITaxon:7954")
 Annotation(rdfs:comment "Aurelie Comte, Bill Bug, Catherine Leroy, Duncan Davidson and Trish Whetzel are also contributors. However their ORCIDs were not found.")
-Annotation(owl:versionInfo "2023-10-27")
-Annotation(owl:versionInfo "2023-11-24")
+Annotation(owl:versionInfo "2024-02-20")
+Annotation(owl:versionInfo "2024-02-22")
 Annotation(<http://xmlns.com/foaf/0.1/homepage> "http://uberon.org"^^xsd:anyURI)
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9606>))
@@ -337,6 +337,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001588>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001589>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001590>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001591>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001592>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001594>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001610>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001611>))
@@ -390,6 +391,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001980>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001982>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002040>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002056>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002070>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002078>))
@@ -547,8 +549,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0008952>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0008953>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0009040>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0009041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0009042>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0009048>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0009049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0009091>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0009202>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0009654>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0009687>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0009688>))
@@ -618,6 +623,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0015350>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0015480>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0015481>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0015482>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0016405>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0016493>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0017618>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0017637>))
@@ -745,6 +751,7 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002225>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002226>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002229>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002230>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002252>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002254>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002256>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002285>))
@@ -883,7 +890,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000017> "EV:0100093")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000017> "FMA:16017")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000017> "MA:0002415")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000017> "MESH:D046790")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000017> "NCIT:C32546")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000017> "SCTID:248202004")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000017> "TAO:0001249")
@@ -1448,7 +1454,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001192> "galen:LeftGastricArtery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001192> "left gastric artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001192> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001192> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001640>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001192> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001640>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001194> (splenic artery)
 
@@ -1466,7 +1472,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "MA:0001991") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0001194> "lienal artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001194> "splenic artery")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0001194> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001637> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0002106>)))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001194> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001640>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001194> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001640>))
 DisjointClasses(<http://purl.obolibrary.org/obo/UBERON_0001194> <http://purl.obolibrary.org/obo/UBERON_0001640>)
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001195> (inferior pancreaticoduodenal artery)
@@ -1481,7 +1487,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001195> "inferior pancreaticoduodenal artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001195> <http://purl.obolibrary.org/obo/UBERON_0001637>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001195> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001182>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001195> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001182>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001195> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001182>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001196> (middle colic artery)
 
@@ -1970,7 +1976,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001311> "SCTID:43210002")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001311> "Wikipedia:Inferior_vesical_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001311> "inferior vesical artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001311> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001309>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001311> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001309>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001312> (superior vesical artery)
 
@@ -1981,6 +1987,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001312> "SCTID:113268007")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001312> "Wikipedia:Superior_vesical_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001312> "superior vesical artery")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001312> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001310>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001313> (iliolumbar artery)
 
@@ -1993,7 +2000,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0001313> "ilio-lumbar artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001313> "iliolumbar artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001313> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001313> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001309>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001313> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001309>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001314> (obturator artery)
 
@@ -2005,7 +2012,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001314> "Wikipedia:Obturator_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001314> "obturator artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001314> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001309>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001309>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001315> (superior gluteal artery)
 
@@ -2018,7 +2025,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0001315> "arteria glutealis superior")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001315> "superior gluteal artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001315> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001315> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001309>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001315> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001309>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001316> (external iliac vein)
 
@@ -2123,7 +2130,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001340> "dorsal artery of penis")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001340> <http://purl.obolibrary.org/obo/UBERON_0001637>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001340> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008320>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001340> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0007315>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001340> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0007315>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001354> (inferior epigastric artery)
 
@@ -2157,7 +2164,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001356> "Wikipedia:Medial_circumflex_femoral_artery")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0001356> "medial femoral circumflex artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001356> "medial circumflex femoral artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001356> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001355>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001356> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001355>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001357> (inferior rectal artery)
 
@@ -2180,7 +2187,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001358> "Wikipedia:Perineal_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001358> "perineal artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001358> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001358> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0007315>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001358> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0007315>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001360> (deep circumflex iliac vein)
 
@@ -2254,6 +2261,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0001394> "axillary part of trunk of subclavian artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001394> "axillary artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001394> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002170> <http://purl.obolibrary.org/obo/UBERON_0001533>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001394> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001394>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001395> (thoraco-acromial artery)
 
@@ -2920,7 +2928,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001535> "ZFA:0005033")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001535> "vertebral artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001535> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001535> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001533>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001535> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001533>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001536> (left common carotid artery plus branches)
 
@@ -2947,7 +2955,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001537> "Wikipedia:Anterior_tibial_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001537> "anterior tibial artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001537> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001537> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0002250>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001537> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0002250>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001538> (posterior tibial artery)
 
@@ -2959,7 +2967,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001538> "Wikipedia:Posterior_tibial_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001538> "posterior tibial artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001538> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001538> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0002250>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001538> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0002250>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001539> (dorsalis pedis artery)
 
@@ -2973,7 +2981,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Wikipedia:Dorsalis_pedis_artery") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0001539> "dorsal artery of foot")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001539> "dorsalis pedis artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001539> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001539> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001537>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001539> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001537>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001540> (peroneal artery)
 
@@ -2986,7 +2994,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0001540> "fibular artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001540> "peroneal artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001540> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001540> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001538>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001540> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001538>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001541> (medial plantar artery)
 
@@ -3106,7 +3114,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001552> "kidney arcuate artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001552> <http://purl.obolibrary.org/obo/UBERON_0001637>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001552> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001225>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001552> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0009885>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001552> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0009885>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001553> (medial tarsal artery)
 
@@ -3257,6 +3265,18 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001591> "thymic vein")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001591> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002376> <http://purl.obolibrary.org/obo/UBERON_0003711>))
 
+# Class: <http://purl.obolibrary.org/obo/UBERON_0001592> (bronchial vein)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Wikipedia:Bronchial_veins") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0001592> "The bronchial veins are small vessels that return blood from the larger bronchi and structures at the roots of the lungs. The right side drains into the azygos vein, while the left side drains into the left superior intercostal vein or the accessory hemiazygos vein. The bronchial veins are counterparts to the bronchial arteries. The veins, however, do not return all of the blood supplied by the arteries; much of the blood that is carried in the bronchial arteries is returned to the heart via the pulmonary veins. [WP,unvetted].")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001592> "EMAPA:36284")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001592> "FMA:4749")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001592> "MA:0002088")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001592> "NCIT:C53031")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001592> "SCTID:198293000")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001592> "Wikipedia:Bronchial_veins")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0001592> "bronchial venous tree")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001592> "bronchial vein")
+
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001594> (azygos vein)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "MP:0011569") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Wikipedia:Azygos_vein") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0001594> "An unpaired vein which in humans arises from the right ascending lumbar vein or the vena cava, enters the thorax through the aortic orifice in the diaphragm, and terminates in the superior vena cava; unlike humans, mice have a single and left-sided azygos vein that develops from the paired embryonic cardinal venous system and drains most of the right and left thoracic walls into the left anterior vena cava[MP].")
@@ -3285,7 +3305,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001610> "Wikipedia:Lingual_artery")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0001610> "lingual branch of external carotid artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001610> "lingual artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001610> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001070>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001610> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001070>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001611> (sublingual artery)
 
@@ -3298,7 +3318,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001611> "Wikipedia:Sublingual_artery")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0001611> "sublingual branch of lingual artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001611> "sublingual artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001611> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001610>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001611> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001610>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001612> (facial artery)
 
@@ -3331,7 +3351,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001614> "Wikipedia:Superficial_temporal_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001614> "superficial temporal artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001614> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001614> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001070>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001614> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001070>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001615> (transverse facial artery)
 
@@ -3397,7 +3417,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001619> "XAO:0000368")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001619> "ophthalmic artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001619> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001619> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001532>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001619> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001532>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001620> (central retinal artery)
 
@@ -3415,7 +3435,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001620> "central retinal artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001620> <http://purl.obolibrary.org/obo/UBERON_0001637>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001620> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002225> <http://purl.obolibrary.org/obo/UBERON_0002270>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001620> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001619>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001620> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001619>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001622> (lacrimal artery)
 
@@ -3426,7 +3446,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001622> "SCTID:369324002")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001622> "Wikipedia:Lacrimal_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001622> "lacrimal artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001622> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001619>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001622> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001619>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001623> (dorsal nasal artery)
 
@@ -3441,7 +3461,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:50000") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0001623> "external nasal artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001623> "dorsal nasal artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001623> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001619>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001623> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001619>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001624> (anterior cerebral artery)
 
@@ -3457,7 +3477,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001624> "SCTID:181309000")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001624> "Wikipedia:Anterior_cerebral_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001624> "anterior cerebral artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001624> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001532>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001624> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001532>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001625> (right coronary artery)
 
@@ -3501,7 +3521,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001627> "Wikipedia:Middle_cerebral_artery")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0001627> "Sylvian artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001627> "middle cerebral artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001627> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001532>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001627> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001532>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001628> (posterior communicating artery)
 
@@ -3520,7 +3540,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ZFA:0005001") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0001628> "caudal communicating segment")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ZFA:0005001") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0001628> "posterior communicating segment of the basilar artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001628> "posterior communicating artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001628> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001532>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001628> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001532>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001633> (basilar artery)
 
@@ -3542,7 +3562,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001633> "
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001633> <http://purl.obolibrary.org/obo/UBERON_0001637>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001633> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001533>))
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001633> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/UBERON_0001535>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001633> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001535>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001633> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001535>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001634> (mesencephalic artery)
 
@@ -3695,7 +3715,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001642> "EMAPA:18636")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001642> "FMA:50767")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001642> "MA:0001867")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001642> "MESH:D054063")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001642> "NCIT:C12515")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001642> "SCTID:362075006")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001642> "Wikipedia:Superior_sagittal_sinus")
@@ -4029,6 +4048,20 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0002016> "pulmonary venous tree organ part")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0002016> "pulmonary vein")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002170> <http://purl.obolibrary.org/obo/UBERON_0002079>))
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0002040> (bronchial artery)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "UBERON:cjm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Wikipedia:Bronchial_artery") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0002040> "A systemic artery that supplies the lung with with oxygenated blood.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0002040> "EMAPA:18608")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0002040> "FMA:68109")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0002040> "GAID:477")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0002040> "MA:0001923")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0002040> "MESH:D001981")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0002040> "NCIT:C32230")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0002040> "SCTID:244247009")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0002040> "Wikipedia:Bronchial_artery")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0002040> "bronchial arterial tree")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0002040> "bronchial artery")
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0002056> (inferior suprarenal artery)
 
@@ -4643,7 +4676,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0002456> "internal thoracic artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002456> <http://purl.obolibrary.org/obo/UBERON_0001637>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002456> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001533>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002456> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001533>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002456> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001533>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0002459> (inferior palpebral vein)
 
@@ -4672,11 +4705,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002460> ObjectSomeValuesFrom(
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "MGI:monikat") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "MP:0003995") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0002493> "The branch of the internal iliac artery that supplies the uterus and the upper part of the vagina.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0002493> "FMA:18829")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0002493> "MA:0002799")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0002493> "MESH:D055988")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0002493> "SCTID:244300003")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0002493> "Wikipedia:Uterine_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0002493> "uterine artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002493> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001309>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002493> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001309>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0002505> (spiral modiolar artery)
 
@@ -4686,7 +4718,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0002505> "SCTID:149380004")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0002505> "spiral modiolar artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002505> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002505> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0018231>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002505> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0018231>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0002962> (adductor pollicis muscle)
 
@@ -4785,7 +4817,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0003468> "Wikipedia:Ureteral_branches_of_renal_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0003468> "ureteric segment of renal artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0003468> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001184>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0003468> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001184>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0003468> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001184>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0003470> (artery of upper lip)
 
@@ -4797,7 +4829,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:49570") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0003470> "superior labial artery")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:49570") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0003470> "superior labial branch of facial artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0003470> "artery of upper lip")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0003470> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001612>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0003470> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001612>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0003471> (artery of lower lip)
 
@@ -4810,7 +4842,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:49567") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0003471> "inferior labial branch of facial artery")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:TA") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0003471> "ramus labialis inferior (arteria facialis)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0003471> "artery of lower lip")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0003471> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001612>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0003471> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001612>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0003477> (vein of upper lip)
 
@@ -5063,7 +5095,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0004639> "
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004639> <http://purl.obolibrary.org/obo/UBERON_0001980>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004639> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001229>))
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004639> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001285>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004639> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0004723>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004639> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0004723>))
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004639> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002433> <http://purl.obolibrary.org/obo/UBERON_0001229>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0004640> (renal efferent arteriole)
@@ -5115,7 +5147,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:49767") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0004646> "infra-orbital artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0004646> "infraorbital artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004646> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004646> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001616>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004646> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001616>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0004647> (liver lobule)
 
@@ -5239,8 +5271,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:18930") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0005192> "ductus deferens artery")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0005192> "vas deferens artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0005192> "deferent duct artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005192> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001310>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005192> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001312>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005192> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001312>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0005196> (spleen germinal center)
 
@@ -5329,7 +5360,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:50531") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0005431> "anterior medial spinal artery")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:50531") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0005431> "ventral spinal artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0005431> "anterior spinal artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005431> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001535>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005431> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001535>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0005436> (common hepatic artery)
 
@@ -5342,7 +5373,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0005436> "Wikipedia:Common_hepatic_artery")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0005436> "galen:CommonHepaticArtery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0005436> "common hepatic artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005436> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001640>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005436> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001640>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0005438> (coronary sinus)
 
@@ -5350,7 +5381,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0005438> "EHDAA2:0000320")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0005438> "EHDAA:9884")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0005438> "FMA:4706")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0005438> "MESH:D054326")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0005438> "NCIT:C32378")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0005438> "SCTID:244386006")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0005438> "Wikipedia:Coronary_sinus")
@@ -5434,7 +5464,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0005628> "ileal artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005628> <http://purl.obolibrary.org/obo/UBERON_0001637>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005628> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001182>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005628> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001182>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005628> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001182>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0005750> (glomerular parietal epithelium)
 
@@ -5572,7 +5602,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0006632> "Wikipedia:Musculophrenic_artery")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:10645") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0006632> "musculophrenic artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0006632> "musculo-phrenic artery")
-EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0006632> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001637> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001103>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0002456>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0006632> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001637> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001103>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0002456>)))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0006634> (lingual vein)
 
@@ -5659,7 +5689,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "MA:0001993") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0006664> "major palatine artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0006664> "greater palatine artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0006664> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0006664> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001616>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0006664> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001616>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0006665> (accessory hemiazygos vein)
 
@@ -5737,7 +5767,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0006764> "SCTID:181311009")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0006764> "Wikipedia:Anterior_communicating_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0006764> "anterior communicating artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0006764> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001624>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0006764> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001624>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0006841> (central vein of liver)
 
@@ -5826,7 +5856,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0007150> "SCTID:244218002")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0007150> "Wikipedia:Superior_thyroid_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0007150> "superior thyroid artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007150> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001070>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007150> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001070>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0007152> (inferior sagittal sinus)
 
@@ -5919,7 +5949,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Wikipedia:Internal_pudendal_artery") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0007315> "internal pudic artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0007315> "internal pudendal artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007315> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007315> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001309>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007315> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001309>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0007316> (deep external pudendal artery)
 
@@ -5984,7 +6014,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0007693> "caroticotympanic artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007693> <http://purl.obolibrary.org/obo/UBERON_0001637>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007693> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/UBERON_0005608>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007693> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001532>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007693> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001532>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0008320> (common penile artery)
 
@@ -6007,7 +6037,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:19794") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0008321> "deep penile artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0008321> "deep artery of penis")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0008321> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008320>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0008321> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0007315>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0008321> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0007315>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0008322> (deep artery of clitoris)
 
@@ -6016,7 +6046,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0008322> "SCTID:244297008")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0008322> "Wikipedia:Deep_artery_of_clitoris")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0008322> "deep artery of clitoris")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0008322> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0007315>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0008322> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0007315>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0008323> (dorsal artery of clitoris)
 
@@ -6026,7 +6056,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0008323> "Wikipedia:Dorsal_artery_of_clitoris")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0008323> "dorsal artery of clitoris")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0008323> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0008323> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0007315>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0008323> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0007315>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0008446> (flexor pollicis longus muscle)
 
@@ -6078,7 +6108,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0008783> ObjectSomeValuesFrom(
 # Class: <http://purl.obolibrary.org/obo/UBERON_0008874> (pulmonary acinus)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "MP:0010911") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:2014492") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:3382030") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Wikipedia:Acinus#The_Lungs") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0008874> "The largest lung subunit in which all airways participate in gas exchange, and it is composed of the parenchyma of the respiratory bronchioles, alveolar ducts, and alveoli.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/UBERON_0008874> <https://orcid.org/0000-0001-6677-8489>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0008874> "FMA:7313")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0008874> "NCIT:C33426")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0008874> "SCTID:361365004")
@@ -6136,7 +6165,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Wikipedia:Deep_circumflex_iliac_artery") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0009040> "arteria circumflexa ilium profunda")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0009040> "deep circumflex iliac artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001308>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001308>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001308>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0009041> (superficial circumflex iliac artery)
 
@@ -6146,6 +6175,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0009041> "Wikipedia:Superficial_circumflex_iliac_artery")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Wikipedia:Superficial_iliac_circumflex_artery") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0009041> "arteria circumflexa ilium superficialis")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0009041> "superficial circumflex iliac artery")
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0009042> (prostatic venous plexus)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Wikipedia:Prostatic_venous_plexus") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0009042> "The prostatic veins form a well-marked prostatic plexus which lies partly in the fascial sheath of the prostate and partly between the sheath and the prostatic capsule. It communicates with the pudendal and vesical plexuses.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0009042> "FMA:29711")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0009042> "SCTID:303052003")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0009042> "Wikipedia:Prostatic_venous_plexus")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0009042> "prostatic venous plexus")
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0009048> (deep external pudendal vein)
 
@@ -6159,6 +6196,18 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0009049> "superficial external pudendal vein")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009049> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002170> <http://purl.obolibrary.org/obo/UBERON_0001363>))
 
+# Class: <http://purl.obolibrary.org/obo/UBERON_0009091> (vasa recta ascending limb)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0009091> "KUPO:0001005")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0009091> "vasa recta ascending limb")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009091> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004726>))
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0009202> (vasa recta descending limb)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0009202> "KUPO:0001002")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0009202> "vasa recta descending limb")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009202> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004726>))
+
 # Class: <http://purl.obolibrary.org/obo/UBERON_0009654> (alveolar artery)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ncithesaurus:Alveolar_Artery") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0009654> "A branch of the maxillary artery that is found in the gingiva, premolars, and molars.")
@@ -6166,7 +6215,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0009654> "NCIT:C52848")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0009654> "alveolar artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009654> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009654> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001616>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009654> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001616>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0009687> (middle cardiac vein)
 
@@ -6194,7 +6243,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0009688> "
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009688> <http://purl.obolibrary.org/obo/UBERON_0001637>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009688> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001535>))
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009688> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/UBERON_0001535>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009688> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001535>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009688> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001535>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0009689> (anterior inferior cerebellar artery)
 
@@ -6206,7 +6255,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0009689> "Wikipedia:Anterior_inferior_cerebellar_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0009689> "anterior inferior cerebellar artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009689> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/UBERON_0001532>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009689> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001633>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009689> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001633>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0009885> (interlobar artery)
 
@@ -6240,7 +6289,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0010132> "gastroduodenal artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010132> <http://purl.obolibrary.org/obo/UBERON_0001637>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010132> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/UBERON_0005436>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010132> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0005436>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010132> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0005436>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0010181> (straight venules of kidney)
 
@@ -6269,7 +6318,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0010250> "SCTID:278100005")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0010250> "Wikipedia:Middle_meningeal_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0010250> "middle meningeal artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010250> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001616>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010250> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001616>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0010251> (anterior meningeal artery)
 
@@ -6280,12 +6329,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0010251> "Wikipedia:Anterior_ethmoidal_artery#Branches")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:49993") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0010251> "anterior meningeal branch of anterior ethmoidal artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0010251> "anterior meningeal artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010251> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0012318>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010251> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0012318>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0010369> (secondary pulmonary lobule)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:3259815") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0010369> "A unit of lung supplied by three to five terminal bronchioles and contained by fibrous septa.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/UBERON_0010369> <https://orcid.org/0000-0001-6677-8489>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0010369> "FMA:7414")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0010369> "secondary pulmonary lobule")
 
@@ -6311,7 +6359,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0010399> "Wikipedia:Trabecular_arteries")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0010399> "spleen trabecular artery")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0010399> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001637> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001265>)))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010399> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001194>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010399> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001194>))
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010399> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002433> <http://purl.obolibrary.org/obo/UBERON_0002106>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0010400> (spleen trabecular vein)
@@ -6335,7 +6383,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0010401> "
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010401> <http://purl.obolibrary.org/obo/UBERON_0001980>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010401> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001959>))
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010401> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002170> <http://purl.obolibrary.org/obo/UBERON_0010400>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010401> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0010399>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010401> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0010399>))
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010401> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002433> <http://purl.obolibrary.org/obo/UBERON_0001959>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0010408> (ocular angle artery)
@@ -6348,7 +6396,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:49583") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0010408> "angular artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0010408> "ocular angle artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010408> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001612>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001612>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0010496> (teres minor muscle)
 
@@ -6459,7 +6507,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:50025") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0012187> "supratrochlear branch of ophthalmic artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0012187> "frontal artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0012187> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0012187> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001619>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0012187> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001619>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0012194> (superior intercostal vein)
 
@@ -6528,7 +6576,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0012318> "Wikipedia:Anterior_ethmoidal_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0012318> "anterior ethmoidal artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0012318> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0012318> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001619>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0012318> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001619>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0012319> (posterior ethmoidal artery)
 
@@ -6538,7 +6586,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0012319> "Wikipedia:Posterior_ethmoidal_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0012319> "posterior ethmoidal artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0012319> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0012319> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001619>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0012319> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001619>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0012321> (deep cervical artery)
 
@@ -6547,7 +6595,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0012321> "SCTID:244223002")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0012321> "Wikipedia:Deep_cervical_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0012321> "deep cervical artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0012321> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0004688>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0012321> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0004688>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0012322> (ascending cervical artery)
 
@@ -6556,7 +6604,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0012322> "SCTID:161846001")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0012322> "Wikipedia:Ascending_cervical_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0012322> "ascending cervical artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0012322> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0007149>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0012322> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0007149>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0012324> (transverse cervical artery)
 
@@ -6576,7 +6624,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0013132> "
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0013132> <http://purl.obolibrary.org/obo/UBERON_0001980>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0013132> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001959>))
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0013132> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002178> <http://purl.obolibrary.org/obo/UBERON_0001250>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0013132> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0010401>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0013132> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0010401>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0013133> (superior phrenic artery)
 
@@ -6630,7 +6678,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0013648> "SCTID:147864007")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0013648> "Wikipedia:Masseteric_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0013648> "masseteric artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0013648> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001616>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0013648> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001616>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0014685> (pterygoid plexus)
 
@@ -6684,7 +6732,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0014693> "SCTID:276151008")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0014693> "inferior alveolar artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0014693> <http://purl.obolibrary.org/obo/UBERON_0009654>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0014693> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001616>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0014693> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001616>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0014694> (posterior auricular artery)
 
@@ -6693,7 +6741,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0014694> "SCTID:244220004")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0014694> "Wikipedia:Posterior_auricular_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0014694> "posterior auricular artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0014694> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001070>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0014694> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001070>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0014695> (deep auricular artery)
 
@@ -6702,7 +6750,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0014695> "SCTID:147157007")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0014695> "Wikipedia:Deep_auricular_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0014695> "deep auricular artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0014695> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001616>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0014695> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001616>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0014696> (anterior choroidal artery)
 
@@ -6712,7 +6760,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0014696> "SCTID:244211008")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0014696> "Wikipedia:Anterior_choroidal_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0014696> "anterior choroidal artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0014696> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001532>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0014696> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001532>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0014726> (intercalated duct of pancreas)
 
@@ -6738,7 +6786,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0014772> "Wikipedia:Lateral_palpebral_arteries")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:49940") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0014772> "lateral palpebral branch of ophthalmic artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0014772> "lateral palpebral artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0014772> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001622>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0014772> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001622>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0014773> (medial palpebral artery)
 
@@ -6748,7 +6796,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0014773> "Wikipedia:Medial_palpebral_arteries")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:50012") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0014773> "medial palpebral branch of ophthalmic artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0014773> "medial palpebral artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0014773> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001619>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0014773> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001619>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0015157> (zygomatico-orbital artery)
 
@@ -6758,7 +6806,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0015157> "Wikipedia:Zygomatico-orbital_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0015157> "zygomatico-orbital artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0015157> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0015157> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001614>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0015157> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001614>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0015160> (supraorbital artery)
 
@@ -6770,7 +6818,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:49973") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0015160> "supraorbital artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0015160> "supraorbital artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0015160> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0015160> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001619>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0015160> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001619>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0015171> (uterine spiral artery)
 
@@ -6823,7 +6871,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0015480> "Wikipedia:Hepatic_artery_proper")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:14772") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0015480> "hepatic artery proper")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0015480> "proper hepatic artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0015480> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0005436>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0015480> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0005436>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0015481> (left hepatic artery)
 
@@ -6844,6 +6892,13 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:14778") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0015482> "right part of hepatic artery proper")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0015482> "right hepatic artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0015482> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002170> <http://purl.obolibrary.org/obo/UBERON_0015480>))
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0016405> (pulmonary capillary)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "OBOL:automatic") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0016405> "A capillary that is part of a lung.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0016405> "FMA:14121")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:14121") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0016405> "capillary of lung")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0016405> "pulmonary capillary")
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0016493> (palmaris longus muscle)
 
@@ -6902,7 +6957,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0018243> "Wikipedia:Thymic_branches_of_internal_thoracic_artery")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:10647") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0018243> "thymic branch of internal thoracic artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0018243> "thymic artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0018243> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0002456>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0018243> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0002456>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0018252> (internal pudendal vein)
 
@@ -6948,7 +7003,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:49757") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0018397> "superior posterior alveolar artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0018397> "posterior superior alveolar artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0018397> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0018397> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001616>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0018397> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001616>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0034693> (cremasteric artery)
 
@@ -6960,7 +7015,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0034693> "cremasteric artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0034693> <http://purl.obolibrary.org/obo/UBERON_0001637>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0034693> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001354>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0034693> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001354>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0034693> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001354>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0034727> (vestibular bulb artery)
 
@@ -6970,7 +7025,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0034727> "Wikipedia:Artery_of_bulb_of_vestibule")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:20900") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0034727> "artery of bulb of vestibule")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0034727> "vestibular bulb artery")
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0034727> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0007315>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0034727> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0007315>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0034927> (arcuate artery of foot)
 
@@ -6981,7 +7036,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0034927> "arcuate artery of foot")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0034927> <http://purl.obolibrary.org/obo/UBERON_0001637>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0034927> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002170> <http://purl.obolibrary.org/obo/UBERON_0001539>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0034927> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001537>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0034927> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001537>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0034964> (superficial epigastric artery)
 
@@ -7029,7 +7084,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:14832") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0035040> "superior hemorrhoidal artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0035040> "superior rectal artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001183>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001183>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001183>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0035042> (middle temporal artery)
 
@@ -7040,7 +7095,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0035042> "middle temporal artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035042> <http://purl.obolibrary.org/obo/UBERON_0001637>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002170> <http://purl.obolibrary.org/obo/UBERON_0001627>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001614>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001614>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0035150> (superior cerebral vein)
 
@@ -7073,7 +7128,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:14830") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0035180> "inferior left colic artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0035180> "sigmoid artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035180> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035180> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001183>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035180> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001183>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0035183> (calcarine artery)
 
@@ -7095,7 +7150,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0035222> "UMLS:C0226227")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0035222> "posterior parietal artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035222> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035222> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001627>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035222> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001627>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0035225> (anterior temporal artery)
 
@@ -7106,7 +7161,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0035225> "UMLS:C0226228")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0035225> "anterior temporal artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035225> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035225> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001627>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035225> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001627>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0035231> (superficial middle cerebral vein)
 
@@ -7164,7 +7219,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0035261> "posterior temporal artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035261> <http://purl.obolibrary.org/obo/UBERON_0001637>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035261> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002170> <http://purl.obolibrary.org/obo/UBERON_0001614>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035261> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001627>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035261> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001627>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0035273> (superior thoracic artery)
 
@@ -7176,8 +7231,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0035273> "Wikipedia:Superior_thoracic_artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0035273> "superior thoracic artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035273> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035273> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001394>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035273> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001533>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035273> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001394>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0035322> (right common iliac artery)
 
@@ -7225,7 +7279,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:49849") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0035404> "superior hypophyseal artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0035404> "superior hypophysial artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035404> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035404> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001532>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035404> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001532>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0035422> (circumflex branch of left coronary artery)
 
@@ -7240,7 +7294,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0035422> "circumflex branch of left coronary artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035422> <http://purl.obolibrary.org/obo/UBERON_0001637>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035422> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001626>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035422> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001626>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035422> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001626>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0035435> (right suprarenal vein)
 
@@ -7262,7 +7316,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0035462> "UMLS:C0226226")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0035462> "anterior parietal artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035462> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035462> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001627>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035462> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001627>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0035474> (right subcostal vein)
 
@@ -7297,7 +7351,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:49846") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0035492> "inferior hypophyseal artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0035492> "inferior hypophysial artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035492> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035492> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001532>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035492> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001532>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0035529> (left common iliac artery)
 
@@ -7399,7 +7453,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:14781") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0035829> "right gastroomental artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0035829> "right gastroepiploic artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035829> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035829> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0010132>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035829> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0010132>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0035830> (left gastroepiploic artery)
 
@@ -7413,7 +7467,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:14796") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0035830> "left inferior gastric artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0035830> "left gastroepiploic artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035830> <http://purl.obolibrary.org/obo/UBERON_0001637>)
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035830> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001194>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035830> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001194>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0036074> (vein of vestibular aqueduct)
 
@@ -7473,26 +7527,23 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0036300> ObjectIntersec
 # Class: <http://purl.obolibrary.org/obo/UBERON_8410017> (left colic vein)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WikipediaVersioned:Left_colic_vein&oldid=964575339") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-4183-8865") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_8410017> "A portal vein that drains the descending colon. It is a tributary of the inferior mesenteric vein, and follows the path of its corresponding artery, the left colic artery.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/UBERON_8410017> <https://orcid.org/0000-0002-2825-0621>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_8410017> "FMA:15394")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_8410017> "left colic vein")
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_8410018> (right colic vein)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WikipediaVersioned:Right_colic_vein&oldid=870898828") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-4183-8865") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_8410018> "A portal vein that drains the ascending colon. It is a tributary of the superior mesenteric vein, and travels with its corresponding artery, the right colic artery.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/UBERON_8410018> <https://orcid.org/0000-0002-2825-0621>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_8410018> "FMA:15407")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_8410018> "right colic vein")
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_8410022> (left colic artery)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:29489246") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-4183-8865") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_8410022> "The first branch of the inferior mesenteric artery (IMA) is the left colic artery. The left colic artery supplies blood flow to the distal third of the transverse colon and the entirety of the descending colon. Once diverging from the IMA, the left colic artery runs anterior to the left ureter, left internal spermatic vessels (males), and psoas major before branching into its ascending and descending segments.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/UBERON_8410022> <https://orcid.org/0000-0002-2825-0621>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_8410022> "FMA:14826")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_8410022> "left colic artery")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_8410022> <http://purl.obolibrary.org/obo/UBERON_0001637>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_8410022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002170> <http://purl.obolibrary.org/obo/UBERON_0001215>))
-SubClassOf(<http://purl.obolibrary.org/obo/UBERON_8410022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/UBERON_0001183>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_8410022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002252> <http://purl.obolibrary.org/obo/UBERON_0001183>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_8410023> (right colic artery)
 
@@ -7505,7 +7556,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/UBERON_8410023> ObjectSomeValuesFrom(
 # Class: <http://purl.obolibrary.org/obo/UBERON_8410043> (bronchus submucosal gland)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://orcid.org/0000-0003-3440-1876") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://orcid.org/0000-0003-4183-8865") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_8410043> "A submucosal gland located in a bronchus.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/UBERON_8410043> <https://orcid.org/0000-0002-2825-0621>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_8410043> "bronchial submucosal gland")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_8410043> "submucosal bronchial gland")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_8410043> "submucosal bronchus gland")
@@ -7513,4 +7563,5 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_8410043> "
 
 
 SubClassOf(ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001526> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002372> <http://purl.obolibrary.org/obo/UBERON_0001424>))
+DisjointClasses(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
 )
