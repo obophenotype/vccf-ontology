@@ -1515,7 +1515,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000007> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000008> (intra-acinar venule)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1152/japplphysiol.01177.2009") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2867543/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000008> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1152/japplphysiol.01177.2009") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20110543") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000008> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000008> "intra-acinar venule (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000008> "intra-acinar venule")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000008> <http://purl.obolibrary.org/obo/UBERON_0001979>)
@@ -1523,7 +1523,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000008> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000009> (post-alveolar capillary)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1152/japplphysiol.01177.2009") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2867543/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000009> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1152/japplphysiol.01177.2009") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20110543") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000009> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000009> "post-alveolar capillary (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000009> "post-alveolar capillary")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000009> <http://purl.obolibrary.org/obo/UBERON_0001982>)
@@ -3339,7 +3339,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000216> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000217> (intralobular arteriole of pancreas)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6880211/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000217> "A vessel located in pancreas")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:31803296") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000217> "A vessel located in pancreas")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000217> "intralobular arteriole of pancreas (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000217> "intralobular arteriole of pancreas")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000217> <http://purl.obolibrary.org/obo/UBERON_0001980>)
@@ -4716,7 +4716,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000374> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000375> (vasa recta of colon)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2829392/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000375> "A vessel located in large intestine")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20447248") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000375> "A vessel located in large intestine")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000375> "vasa recta of colon (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000375> "vasa recta of colon")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000375> <http://purl.obolibrary.org/obo/UBERON_0001637>)
@@ -4724,7 +4724,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000375> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000376> (long branch of vasa recta of colon)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2829392/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000376> "A vessel located in large intestine")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20447248") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000376> "A vessel located in large intestine")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000376> "long branch of vasa recta of colon (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000376> "long branch of vasa recta of colon")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000376> <http://purl.obolibrary.org/obo/UBERON_0001637>)
@@ -4732,7 +4732,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000376> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000377> (submucosal artery of colon)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2829392/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000377> "A vessel located in large intestine")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20447248") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000377> "A vessel located in large intestine")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000377> "submucosal artery of colon (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000377> "submucosal artery of colon")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000377> <http://purl.obolibrary.org/obo/UBERON_0001637>)
@@ -4740,7 +4740,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000377> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000378> (recurrent muscular branch of submucosal artery of colon)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2829392/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000378> "A vessel located in large intestine")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20447248") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000378> "A vessel located in large intestine")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000378> "recurrent muscular branch of submucosal artery of colon (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000378> "recurrent muscular branch of submucosal artery of colon")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000378> <http://purl.obolibrary.org/obo/UBERON_0001637>)
@@ -4748,7 +4748,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000378> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000379> (submucosal arteriole of colon)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2829392/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000379> "A vessel located in large intestine")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20447248") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000379> "A vessel located in large intestine")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000379> "submucosal arteriole of colon (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000379> "submucosal arteriole of colon")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000379> <http://purl.obolibrary.org/obo/UBERON_0001980>)
@@ -4756,7 +4756,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000379> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000380> (mucosal arteriole of colon)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2829392/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000380> "A vessel located in large intestine")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20447248") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000380> "A vessel located in large intestine")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000380> "mucosal arteriole of colon (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000380> "mucosal arteriole of colon")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000380> <http://purl.obolibrary.org/obo/UBERON_0001980>)
@@ -4764,7 +4764,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000380> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000381> (branch of mucous plexus of colon)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2829392/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000381> "A vessel located in large intestine")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20447248") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000381> "A vessel located in large intestine")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000381> "branch of mucous plexus of colon (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000381> "branch of mucous plexus of colon")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000381> <http://purl.obolibrary.org/obo/UBERON_0001982>)
@@ -4772,7 +4772,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000381> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000382> (subserous artery of colon)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2829392/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000382> "A vessel located in large intestine")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20447248") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000382> "A vessel located in large intestine")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000382> "subserous artery of colon (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000382> "subserous artery of colon")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000382> <http://purl.obolibrary.org/obo/UBERON_0001637>)
@@ -4780,7 +4780,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000382> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000383> (short branch of vasa recta of colon)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2829392/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000383> "A vessel located in large intestine")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20447248") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000383> "A vessel located in large intestine")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000383> "short branch of vasa recta of colon (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000383> "short branch of vasa recta of colon")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000383> <http://purl.obolibrary.org/obo/UBERON_0001637>)
@@ -5101,7 +5101,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000418> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000419> (descending vasa recta of kidney)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1152/ajprenal.00071.2010") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2904161/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000419> "A vessel located in kidney")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1152/ajprenal.00071.2010") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20392798") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000419> "A vessel located in kidney")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000419> "descending vasa recta of kidney (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:272225") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1000419> "Descending vasa recta")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000419> "descending vasa recta of kidney")
@@ -5110,7 +5110,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000419> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000420> (vasa recta of kidney)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1152/ajprenal.00071.2010") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2904161/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000420> "A vessel located in kidney")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1152/ajprenal.00071.2010") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20392798") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000420> "A vessel located in kidney")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000420> "vasa recta of kidney (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:72006") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1000420> "Set of straight arterioles of kidney")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000420> "vasa recta of kidney")
@@ -7452,7 +7452,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000684> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000685> (soleal vein)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.3400/avd.AVDoa07004") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3610225/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000685> "A vessel located in leg")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.3400/avd.AVDoa07004") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:23555336") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000685> "A vessel located in leg")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000685> "soleal vein (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:0327608") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1000685> "Soleal vein")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000685> "soleal vein")
@@ -7647,7 +7647,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000706> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000707> (bulbar vein)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.12659/MSM.883201") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3560785/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000707> "A vessel located in penis")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.12659/MSM.883201") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:22739749") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000707> "A vessel located in penis")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000707> "bulbar vein (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000707> "bulbar vein")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000707> <http://purl.obolibrary.org/obo/UBERON_0001638>)
@@ -7920,7 +7920,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000737> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000738> (inferior vein of Sappey)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.2484/rcr.v5i3.394") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4898296/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000738> "A vessel located in abdominal cavity")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.2484/rcr.v5i3.394") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:27307867") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000738> "A vessel located in abdominal cavity")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000738> "inferior vein of Sappey (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000738> "inferior vein of Sappey")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000738> <http://purl.obolibrary.org/obo/UBERON_0001638>)
@@ -8000,7 +8000,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000746> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000747> (vena recta of large intestine)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2829392/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000747> "A vessel located in large intestine")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20447248") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000747> "A vessel located in large intestine")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000747> "vena recta of large intestine (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000747> "vena recta of large intestine")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000747> <http://purl.obolibrary.org/obo/UBERON_0001638>)
@@ -8077,7 +8077,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000755> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000756> (intralobular venule of pancreas)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6880211/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000756> "A vessel located in pancreas")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:31803296") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000756> "A vessel located in pancreas")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000756> "intralobular venule of pancreas (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000756> "intralobular venule of pancreas")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000756> <http://purl.obolibrary.org/obo/UBERON_0001979>)
@@ -8162,7 +8162,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000765> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000766> (submucosal vein of colon)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2829392/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000766> "A vessel located in large intestine")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20447248") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000766> "A vessel located in large intestine")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000766> "submucosal vein of colon (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000766> "submucosal vein of colon")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000766> <http://purl.obolibrary.org/obo/UBERON_0001638>)
@@ -8170,7 +8170,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000766> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000767> (submucosal venule of colon)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2829392/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000767> "A vessel located in large intestine")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20447248") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000767> "A vessel located in large intestine")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000767> "submucosal venule of colon (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000767> "submucosal venule of colon")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000767> <http://purl.obolibrary.org/obo/UBERON_0001979>)
@@ -8178,7 +8178,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000767> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000768> (mucosal venule of colon)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2829392/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000768> "A vessel located in large intestine")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20447248") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000768> "A vessel located in large intestine")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000768> "mucosal venule of colon (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000768> "mucosal venule of colon")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000768> <http://purl.obolibrary.org/obo/UBERON_0001979>)
@@ -8186,7 +8186,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000768> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000769> (subserous vein of colon)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2829392/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000769> "A vessel located in large intestine")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1111/j.1469-7580.2009.01199.x") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20447248") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000769> "A vessel located in large intestine")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000769> "subserous vein of colon (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000769> "subserous vein of colon")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000769> <http://purl.obolibrary.org/obo/UBERON_0001638>)
@@ -8248,7 +8248,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000775> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000776> (superior vein of Sappey)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.2484/rcr.v5i3.394") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4898296/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000776> "A vessel located in abdominal cavity")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.2484/rcr.v5i3.394") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:27307867") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000776> "A vessel located in abdominal cavity")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000776> "superior vein of Sappey (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000776> "superior vein of Sappey")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000776> <http://purl.obolibrary.org/obo/UBERON_0001638>)
@@ -8599,7 +8599,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000815> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000816> (ascending vasa recta of kidney)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1152/ajprenal.00071.2010") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2904161/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000816> "A vessel located in kidney")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1152/ajprenal.00071.2010") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20392798") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1000816> "A vessel located in kidney")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1000816> "ascending vasa recta of kidney (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:272227") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1000816> "Ascending vasa recta")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1000816> "ascending vasa recta of kidney")
@@ -10263,7 +10263,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001002> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001003> (left pulmonary artery)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001003> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001003> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001003> "left pulmonary artery (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:50873") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001003> "Left pulmonary artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001003> "left pulmonary artery")
@@ -10272,7 +10272,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001003> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001004> (apicoanterior trunk of left pulmonary artery)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001004> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001004> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001004> "apicoanterior trunk of left pulmonary artery (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001004> "apicoanterior trunk of left pulmonary artery")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001004> <http://purl.obolibrary.org/obo/UBERON_0001637>)
@@ -10280,7 +10280,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001004> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001005> (anterior segmental artery of left lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001005> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001005> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001005> "anterior segmental artery of left lung (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:13279") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001005> "Left anterior segmental artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001005> "anterior segmental artery of left lung")
@@ -10289,7 +10289,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001005> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001006> (apicoposterior segmental artery of left lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001006> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001006> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001006> "apicoposterior segmental artery of left lung (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:13281") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001006> "Apicoposterior segmental artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001006> "apicoposterior segmental artery of left lung")
@@ -10298,7 +10298,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001006> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001007> (left interlobar pulmonary artery)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001007> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001007> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001007> "left interlobar pulmonary artery (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:9284") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001007> "Interlobar portion of left pulmonary artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001007> "left interlobar pulmonary artery")
@@ -10307,7 +10307,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001007> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001008> (basal segmental arterial trunk of left lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001008> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001008> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001008> "basal segmental arterial trunk of left lung (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:68848") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001008> "Trunk of left basal segmental artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001008> "basal segmental arterial trunk of left lung")
@@ -10316,7 +10316,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001008> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001009> (anterior basal segmental artery of left lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001009> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001009> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001009> "anterior basal segmental artery of left lung (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:8645") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001009> "Left anterior basal segmental artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001009> "anterior basal segmental artery of left lung")
@@ -10325,7 +10325,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001009> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001010> (lateral basal segmental artery of left lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001010> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001010> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001010> "lateral basal segmental artery of left lung (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:8646") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001010> "Left lateral basal segmental artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001010> "lateral basal segmental artery of left lung")
@@ -10334,7 +10334,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001010> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001011> (medial basal segmental artery of left lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001011> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001011> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001011> "medial basal segmental artery of left lung (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:8644") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001011> "Left medial basal segmental artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001011> "medial basal segmental artery of left lung")
@@ -10343,7 +10343,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001011> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001012> (posterior basal segmental artery of left lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001012> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001012> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001012> "posterior basal segmental artery of left lung (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:8647") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001012> "Left posterior basal segmental artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001012> "posterior basal segmental artery of left lung")
@@ -10352,7 +10352,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001012> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001013> (lingular artery of left lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001013> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001013> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001013> "lingular artery of left lung (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001013> "lingular artery of left lung")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001013> <http://purl.obolibrary.org/obo/UBERON_0001637>)
@@ -10360,7 +10360,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001013> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001014> (inferior lingular segmental artery of left lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001014> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001014> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001014> "inferior lingular segmental artery of left lung (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:8640") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001014> "Inferior lingular artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001014> "inferior lingular segmental artery of left lung")
@@ -10369,7 +10369,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001014> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001015> (superior lingular segmental artery of left lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001015> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001015> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001015> "superior lingular segmental artery of left lung (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:8639") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001015> "Superior lingular artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001015> "superior lingular segmental artery of left lung")
@@ -10378,7 +10378,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001015> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001016> (superior segmental artery of left lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001016> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001016> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001016> "superior segmental artery of left lung (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:8642") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001016> "Left superior segmental artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001016> "superior segmental artery of left lung")
@@ -10387,7 +10387,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001016> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001017> (segmental pulmonary artery)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001017> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001017> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001017> "segmental pulmonary artery (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:8755") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001017> "Segmental pulmonary artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001017> "segmental pulmonary artery")
@@ -10396,7 +10396,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001017> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001018> (subsegmental pulmonary artery)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001018> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001018> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001018> "subsegmental pulmonary artery (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:9311") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001018> "Subsegmental pulmonary artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001018> "subsegmental pulmonary artery")
@@ -10414,7 +10414,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001019> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001020> (intra-acinar arteriole)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1152/japplphysiol.01177.2009") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2867543/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001020> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1152/japplphysiol.01177.2009") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20110543") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001020> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001020> "intra-acinar arteriole (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001020> "intra-acinar arteriole")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001020> <http://purl.obolibrary.org/obo/UBERON_0001980>)
@@ -10422,7 +10422,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001020> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001021> (pre-alveolar capillary)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1152/japplphysiol.01177.2009") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2867543/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001021> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1152/japplphysiol.01177.2009") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20110543") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001021> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001021> "pre-alveolar capillary (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001021> "pre-alveolar capillary")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001021> <http://purl.obolibrary.org/obo/UBERON_0001982>)
@@ -10430,7 +10430,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001021> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001022> (alveolar capillary)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1152/japplphysiol.01177.2009") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2867543/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001022> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1152/japplphysiol.01177.2009") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20110543") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001022> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001022> "alveolar capillary (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001022> "alveolar capillary")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001022> <http://purl.obolibrary.org/obo/UBERON_0001982>)
@@ -10447,7 +10447,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001023> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001024> (right pulmonary artery)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001024> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001024> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001024> "right pulmonary artery (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:50872") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001024> "Right pulmonary artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001024> "right pulmonary artery")
@@ -10456,7 +10456,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001024> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001025> (right interlobar pulmonary artery)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001025> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001025> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001025> "right interlobar pulmonary artery (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:8618") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001025> "Interlobar portion of right pulmonary artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001025> "right interlobar pulmonary artery")
@@ -10465,7 +10465,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001025> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001026> (basal segmental arterial trunk of right lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001026> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001026> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001026> "basal segmental arterial trunk of right lung (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:68847") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001026> "Trunk of right basal segmental artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001026> "basal segmental arterial trunk of right lung")
@@ -10474,7 +10474,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001026> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001027> (anterior basal segmental artery of right lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001027> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001027> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001027> "anterior basal segmental artery of right lung (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:8630") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001027> "Right anterior basal segmental artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001027> "anterior basal segmental artery of right lung")
@@ -10483,7 +10483,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001027> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001028> (lateral basal segmental artery of right lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001028> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001028> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001028> "lateral basal segmental artery of right lung (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:8631") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001028> "Right lateral basal segmental artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001028> "lateral basal segmental artery of right lung")
@@ -10492,7 +10492,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001028> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001029> (medial basal segmental artery of right lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001029> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001029> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001029> "medial basal segmental artery of right lung (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:8628") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001029> "Right medial basal segmental artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001029> "medial basal segmental artery of right lung")
@@ -10501,7 +10501,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001029> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001030> (posterior basal segmental artery of right lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001030> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001030> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001030> "posterior basal segmental artery of right lung (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:8632") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001030> "Right posterior basal segmental artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001030> "posterior basal segmental artery of right lung")
@@ -10510,7 +10510,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001030> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001031> (lateral segmental artery of right lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001031> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001031> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001031> "lateral segmental artery of right lung (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:68194") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001031> "Lateral segmental artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001031> "lateral segmental artery of right lung")
@@ -10519,7 +10519,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001031> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001032> (medial segmental artery of right lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001032> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001032> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001032> "medial segmental artery of right lung (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:68193") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001032> "Medial segmental artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001032> "medial segmental artery of right lung")
@@ -10528,7 +10528,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001032> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001033> (superior segmental artery of right lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001033> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001033> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001033> "superior segmental artery of right lung (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:8627") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001033> "Right superior segmental artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001033> "superior segmental artery of right lung")
@@ -10537,7 +10537,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001033> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001034> (truncus anterior of right pulmonary artery)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001034> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001034> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001034> "truncus anterior of right pulmonary artery (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:8616") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001034> "Trunk of right upper lobar artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001034> "truncus anterior of right pulmonary artery")
@@ -10546,7 +10546,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001034> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001035> (high truncus anterior of right pulmonary artery)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001035> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001035> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001035> "high truncus anterior of right pulmonary artery (Human)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001035> "high truncus anterior of right pulmonary artery")
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001035> <http://purl.obolibrary.org/obo/UBERON_0001637>)
@@ -10554,7 +10554,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001035> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001036> (anterior segmental artery of right lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001036> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001036> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001036> "anterior segmental artery of right lung (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:8620") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001036> "Right anterior segmental artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001036> "anterior segmental artery of right lung")
@@ -10563,7 +10563,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001036> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001037> (apical segmental artery of right lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001037> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001037> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001037> "apical segmental artery of right lung (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:8617") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001037> "Right apical segmental artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001037> "apical segmental artery of right lung")
@@ -10572,7 +10572,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001037> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001038> (posterior segmental artery of right lung)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6039811/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001038> "A vessel located in lung")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.21037/cdt.2018.01.04") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30057869") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/VCCF_1001038> "A vessel located in lung")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/VCCF_1001038> "posterior segmental artery of right lung (Human)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:8619") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/VCCF_1001038> "Right posterior segmental artery")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_1001038> "posterior segmental artery of right lung")
