@@ -1,7 +1,7 @@
 import argparse
 
 import pandas as pd
-from utils import extract, generate_id, load, read, search_id
+from utils import convert_pmcid, extract, generate_id, load, read, search_id
 
 
 def transform_pattern(data: pd.DataFrame) -> pd.DataFrame:
@@ -25,7 +25,11 @@ def transform_pattern(data: pd.DataFrame) -> pd.DataFrame:
         references = []
         if str(row['ReferenceURL']) != 'nan':
             if 'http' in row['ReferenceURL'] and 'UBERON' not in row['ReferenceURL']:
-                references.append(row['ReferenceURL'])
+                if 'PMC' in row['ReferenceURL']:
+                    references.append(convert_pmcid(row['ReferenceURL']))
+                else:
+                    references.append(row['ReferenceURL'])
+
             if not pd.isna(row['ReferenceDOI']):
                 references.append(f'DOI:{row["ReferenceDOI"]}')
 
