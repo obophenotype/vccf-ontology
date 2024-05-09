@@ -1,8 +1,7 @@
 import argparse
 
 import pandas as pd
-import numpy as np
-from utils import extract, generate_id, load, read, search_id, transform_id
+from utils import extract, generate_id, load, read, search_id
 
 
 def transform_pattern(data: pd.DataFrame) -> pd.DataFrame:
@@ -34,7 +33,7 @@ def transform_pattern(data: pd.DataFrame) -> pd.DataFrame:
 
         r['synonym'] = row['FMALabel']
         if not pd.isna(row['FMA']):
-            r['synonym_xrefs'] = transform_id(row['FMA'])
+            r['synonym_xrefs'] = row['FMA']
         r['taxon'] = "http://purl.obolibrary.org/obo/NCBITaxon_9606"
         data_pattern.append(r)
 
