@@ -24,5 +24,7 @@ $(TEMPLATEDIR)/vessel_organ_crosswalk.tsv: $(TMPDIR)/vessel_organ_crosswalk.csv
 .PHONY: update_vessel_organ_crosswalk
 update_vessel_organ_crosswalk: $(TEMPLATEDIR)/vessel_organ_crosswalk.tsv
 
+MUSCULOSKELETAL_CROSSWALK = https://docs.google.com/spreadsheets/d/1SVNuiG5EtrEavAYgMzMlFdQ8I_CrcFpQnDTWmV95eQ0/edit#gid=0
+
 .PHONY: update_templates
 update_templates: update_vessel_data update_vessel_organ_crosswalk
