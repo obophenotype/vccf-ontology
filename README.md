@@ -5,6 +5,8 @@
 
 ## Pipeline workflow
 
+This workflow is a working in process.
+
 1. Use a [DOSDP](src/patterns/dosdp-patterns/vessel.yaml) to define all vessels available in the [datasource](https://github.com/hubmapconsortium/hra-vccf/blob/main/Vessel.csv). A python script is used to generate the [data](src/patterns/data/default/vessel.tsv) for the DOSDP.
    - [label, human_label] The colum `VesselBaseName` is used for the VCCF term label and for  `oio:obo_foundry_uniquename` annotation, adding "(Human)". We use this column as label because it's the vessel name without the “#N” at the end. This applies to vessels with more than one `BranchesFrom`. However, in cases where there is a specific number of vessels in the body, the `VesselBaseName` includes a number for each different vessel. In UBERON, these cases should be added only one term. **TODO: Remove vessels with numbers**.
    - [parent] The column `VesselTypeID` is used for the vessel classification. Possible values are, as UBERON term, heart chamber, artery, arteriole, capillary, venule, vein, or sinus. In the cases there isn't a matching UBERON term for the vessel, defined in the column `UBERON`. In other words, when the vessel exists in FMA or no matching term is available. **TODO: add `VesselTypeID` for all cases**. 
@@ -19,6 +21,76 @@
 1. [Robot template](src/templates/vessel_organ_crosswalk.tsv) to create relation between vessel and tissue. The data source is the [crosswalk table](https://github.com/hubmapconsortium/hra-vccf/blob/main/VesselOrganCrosswalk.csv). 
    - [Vessel] The column `Vessel` is the VCCF terms created in the DOSDP. The search is done by the label.
    - [relationships] For each relationship in the `Relationship` column, is added in the template. **TODO: When there isn't a matching UBERON term in the column `BodySubPartID`, use `BodyPartID` which is the organ. However, we need to discuss what to do in cases `BodyPart` is angiosome**.
+
+## Description of columns in [datasource](https://github.com/hubmapconsortium/hra-vccf/blob/main/Vessel.csv) [(source)](https://www.nature.com/articles/s41597-023-02018-0#Sec7)
+
+### Columns in the pipeline
+
+**BranchesFrom**: The “parent” vessel that is one step closer to the heart. For veins it is “drains to” rather than branches from.
+
+**Vessel**: The name of the blood vessel. The unique item (primary key) in this table. If a vessel has more than one BranchesFrom, the vessel is listed on multiple rows, but with “ #2”, “ #3”, etc. added to the end of its name.
+
+**VesselBaseName**: The vessel name without the “#N” at the end. This applies to vessels with more than one BranchesFrom.
+
+**BodyPart**: A mapping from vessel to organ or part of the body.
+
+**BodyPartID**: The UBERON or FMA ID of the BodyPart (imported from UBERON or FMA).
+
+**UBERON**: The ID of the vessel in the UBERON ontology.
+
+[Not directly used; UBERON import via ODK] **UBERONLabel**: The main label of the vessel in UBERON (imported from UBERON).
+
+**FMA**: The ID of the vessel in the FMA ontology.
+
+**FMALabel**: The main label of the vessel in FMA (imported from FMA).
+
+**ReferenceURL**: The website describing the vessel and where it branches from.
+
+**ReferenceDOI**: The DOI of the reference if applicable.
+
+**VesselType**: Either heart chamber, artery, arteriole, capillary, venule, vein, or sinus.
+
+**VesselTypeID**: The UBERON or FMA ID of the VesselType (imported from UBERON or FMA).
+
+
+
+### Columns not in the pipeline, but potentially can be added
+
+**VesselSubType**: For capillaries: continuous, fenestrated, sinusoid.
+
+**VesselSubTypeID**: The UBERON or FMA ID of the VesselSubType (imported from UBERON or FMA).
+
+**BodySubPart**: The specific anatomical structure the vessel supplies or drains.
+
+BodySubPartID. The UBERON or FMA ID of the BodySubPart (imported from UBERON or FMA).
+
+**PortalSystem**: Indicates if the vessel is part of a portal system (e.g., hepatic portal system, hypophyseal portal system, etc.).
+
+**Sex**: Indicates whether the vessel is only found in males or females.
+
+**Anastomoses**: Indicates whether the vessel anastomoses with another vessel.
+
+**ArteryVeinConnects**: Indicates if an end branch (“leaf” vessel) in one vessel tree connects to a vessel in a different tree leading back to the heart (e.g., hepatic arteriole ->liver sinusoid).
+
+**ArteryVeinPair**: Indicates if another vessel has the same name, but with the words artery/arteriole swapped with vein/venule. Later this field will be used to match vessels with similar supplies/drains regions.
+
+**ForBranchesSee**: For some vessels, like the left and right renal arteries, rather than showing all the branches of both arteries, a “virtual” merged vessel is created (e.g., just “renal artery”). The branches are only added once to that virtual vessel. This field indicates the name of the virtual vessel that has the branches.
+
+**VirtualVessel**: This field contains a “1” if it is virtual merged vessel used to show the branches of other vessels; a negative value also indicates a virtual vessel, but the merged vessels are not yet explicitly defined in this table; zero for all other vessels.
+
+**BranchSequence**: The order in which vessels branch off of the BranchesFrom vessel. Vessels can have the same value if they branch off the BranchesFrom vessel at the same place. A value of 999 means the branching sequence will be added in a future version of this table.
+
+**VirtualVesselOfList**: The list (separated by semicolons) of vessels that are merged to form a virtual vessel.
+
+**VirtualVesselOfCount**: The number of vessels that are merged to form a virtual vessel.
+
+**VirtualInstances**: The number of times this vessel would be listed if virtual vessels were not used along the path back to the heart.
+
+**VirtualPath**: The list of vessels that have been merged along the path back to the heart.
+
+**PathFromHeart**: The list of branches leading from a heart chamber to the vessel. This field is useful for sorting the table.
+
+**PathFromHeartWithIDs**: Same as PathFromHeart, but the ASLabel and ASID are listed next to each vessel in the path.
 
 ## Versions
 
