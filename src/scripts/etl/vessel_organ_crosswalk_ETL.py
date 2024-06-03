@@ -39,8 +39,12 @@ def crosswalk_template(crosswalk_data, vessels_data) -> pd.DataFrame:
             r = {}
             r["Vessel"] = vessel_id
             if row["Vessel"] in new_vessels:
-                r["Label"] = row["Vessel"] 
-            r[f"{row['Relationship']}"] = row["BodySubPartID"] if row["BodySubPartID"] else next(vccf_id)
+                r["Label"] = row["Vessel"]
+            if str(row["BodyPartID"]) != "nan":
+                r[f"{row['Relationship']}"] = row["BodySubPartID"]
+            else:
+                r[f"{row['Relationship']}"] = f"VCCF:{next(vccf_id)}"
+                r["Label"] = row["BodySubPart"]
             template.append(r)
 
     return pd.DataFrame.from_records(template)
