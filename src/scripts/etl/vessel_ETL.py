@@ -15,29 +15,34 @@ def transform_pattern(data: pd.DataFrame) -> pd.DataFrame:
         r["label"] = row['VesselBaseName'].rstrip()
         r["human_label"] = f'{row["VesselBaseName"].rstrip()} (Human)'
 
-        if not pd.isna(row['UBERON']):
-            r['parent'] = row['UBERON']
-        elif 'fma' not in row['VesselTypeID']:
+        if 'fma' not in row['VesselTypeID'].lower():
             r['parent'] = row['VesselTypeID']
 
-        r['location'] = row['BodyPart']
+        if not pd.isna(row['BodyPartID']):
+            r['location'] = row['BodyPartID']
+            r['location_label'] = row['BodyPart']
 
         references = []
         if str(row['ReferenceURL']) != 'nan':
-            if 'http' in row['ReferenceURL'] and 'UBERON' not in row['ReferenceURL']:
+            if 'UBERON' not in row['ReferenceURL']:
                 if 'PMC' in row['ReferenceURL']:
                     references.append(convert_pmcid(row['ReferenceURL']))
+                elif '10.' in row['ReferenceDOI']:
+                    doi_prefix = 'https://doi.org/'
+                    references.append(row['ReferenceDOI'].replace(doi_prefix, 'DOI:'))
+                elif 'wikipedia' in row['ReferenceURL']:
+                    wiki_prefix = 'https://en.wikipedia.org/wiki/'
+                    references.append(row['ReferenceURL'].replace(wiki_prefix, 'wikipedia:'))
                 else:
                     references.append(row['ReferenceURL'])
 
-            if not pd.isna(row['ReferenceDOI']):
-                references.append(f'DOI:{row["ReferenceDOI"]}')
-
         r['xrefs'] = '|'.join(references)
 
-        r['synonym'] = row['FMALabel']
         if not pd.isna(row['FMA']):
-            r['synonym_xrefs'] = row['FMA']
+            if row['VesselBaseName'].lower() != row['FMALabel'].lower():
+                r['synonym'] = row['FMALabel'].lower()
+                r['synonym_xrefs'] = row['FMA']
+            r['fma_xref'] = row['FMA']
         r['taxon'] = "http://purl.obolibrary.org/obo/NCBITaxon_9606"
         data_pattern.append(r)
 
