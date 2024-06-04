@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/vccf/components/vessel_organ_crosswalk.owl>
-<http://purl.obolibrary.org/obo/vccf/releases/2024-02-22/components/vessel_organ_crosswalk.owl>
-Annotation(owl:versionInfo "2024-02-22")
+<http://purl.obolibrary.org/obo/vccf/releases/2024-06-04/components/vessel_organ_crosswalk.owl>
+Annotation(owl:versionInfo "2024-06-04")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/FMA_14517>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FMA_16005>))
@@ -331,10 +331,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000529>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000530>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000532>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000533>))
-Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000537>))
-Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000538>))
-Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000543>))
-Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000544>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000534>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000539>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000540>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000552>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000564>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000565>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000566>))
@@ -412,7 +412,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000824>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000833>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000834>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1000847>))
-Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001005>))
@@ -427,12 +426,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001013>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001016>))
-Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001017>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001019>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001022>))
-Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001023>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001025>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001027>))
@@ -447,6 +446,81 @@ Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001035>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001036>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001037>))
 Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_1001039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000014>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000042>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000045>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000046>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000048>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000054>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000055>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000056>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000057>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000058>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000060>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000062>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000063>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000064>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000065>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000066>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000067>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000069>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000071>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000072>))
+Declaration(Class(<http://purl.obolibrary.org/obo/VCCF_2000073>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002131>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002170>))
@@ -468,13 +542,19 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000001> ObjectSomeValuesFrom(<h
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/UBERON_0002168>))
 
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000004> (<http://purl.obolibrary.org/obo/VCCF_1000004>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/VCCF_2000000>))
+
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000005> (<http://purl.obolibrary.org/obo/VCCF_1000005>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/FMA_84472>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/VCCF_2000000>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000006> (<http://purl.obolibrary.org/obo/VCCF_1000006>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0010369>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/VCCF_2000000>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000007> (<http://purl.obolibrary.org/obo/VCCF_1000007>)
 
@@ -493,11 +573,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000007> ObjectSomeValuesFrom(<h
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008874>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0010369>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/VCCF_2000000>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000009> (<http://purl.obolibrary.org/obo/VCCF_1000009>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008874>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0010369>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/VCCF_2000000>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/VCCF_2000001>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000010> (<http://purl.obolibrary.org/obo/VCCF_1000010>)
 
@@ -506,6 +589,30 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000010> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000011> (<http://purl.obolibrary.org/obo/VCCF_1000011>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000034> (<http://purl.obolibrary.org/obo/VCCF_1000034>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000023>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000053> (<http://purl.obolibrary.org/obo/VCCF_1000053>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000014>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000072> (<http://purl.obolibrary.org/obo/VCCF_1000072>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000072> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000048>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000087> (<http://purl.obolibrary.org/obo/VCCF_1000087>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000087> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000065>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000094> (<http://purl.obolibrary.org/obo/VCCF_1000094>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000094> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000028>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000137> (<http://purl.obolibrary.org/obo/VCCF_1000137>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000137> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000049>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000165> (<http://purl.obolibrary.org/obo/VCCF_1000165>)
 
@@ -536,13 +643,69 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000174> ObjectSomeValuesFrom(<h
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000175> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0002107>))
 
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000176> (<http://purl.obolibrary.org/obo/VCCF_1000176>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000176> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000039>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000177> (<http://purl.obolibrary.org/obo/VCCF_1000177>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000177> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000033>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000178> (<http://purl.obolibrary.org/obo/VCCF_1000178>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000178> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000035>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000179> (<http://purl.obolibrary.org/obo/VCCF_1000179>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000179> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000040>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000180> (<http://purl.obolibrary.org/obo/VCCF_1000180>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000180> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000044>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000181> (<http://purl.obolibrary.org/obo/VCCF_1000181>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000181> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000046>))
+
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000183> (<http://purl.obolibrary.org/obo/VCCF_1000183>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000183> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0004647>))
 
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000184> (<http://purl.obolibrary.org/obo/VCCF_1000184>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000184> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000061>))
+
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000185> (<http://purl.obolibrary.org/obo/VCCF_1000185>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000185> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0002110>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000186> (<http://purl.obolibrary.org/obo/VCCF_1000186>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000186> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000047>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000187> (<http://purl.obolibrary.org/obo/VCCF_1000187>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000187> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000002>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000188> (<http://purl.obolibrary.org/obo/VCCF_1000188>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000188> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000005>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000189> (<http://purl.obolibrary.org/obo/VCCF_1000189>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000189> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000042>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000190> (<http://purl.obolibrary.org/obo/VCCF_1000190>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000190> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000062>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000191> (<http://purl.obolibrary.org/obo/VCCF_1000191>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000191> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000053>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000192> (<http://purl.obolibrary.org/obo/VCCF_1000192>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000192> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000056>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000196> (<http://purl.obolibrary.org/obo/VCCF_1000196>)
 
@@ -571,10 +734,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000200> ObjectSomeValuesFrom(<h
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000201> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001248>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000201> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0004641>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000201> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000026>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000204> (<http://purl.obolibrary.org/obo/VCCF_1000204>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000204> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0004641>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000204> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000063>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000205> (<http://purl.obolibrary.org/obo/VCCF_1000205>)
 
@@ -587,6 +752,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000206> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000206> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001960>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000206> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0004042>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000206> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0005353>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000206> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/VCCF_2000012>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000206> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/VCCF_2000013>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000207> (<http://purl.obolibrary.org/obo/VCCF_1000207>)
 
@@ -613,6 +780,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000211> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000211> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/UBERON_0001960>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000211> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/UBERON_0004042>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000211> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/UBERON_0005196>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000211> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/VCCF_2000012>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000211> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/VCCF_2000013>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000212> (<http://purl.obolibrary.org/obo/VCCF_1000212>)
 
@@ -621,13 +790,16 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000212> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000213> (<http://purl.obolibrary.org/obo/VCCF_1000213>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000213> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0005196>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000213> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/VCCF_2000012>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000215> (<http://purl.obolibrary.org/obo/VCCF_1000215>)
 
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000215> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/VCCF_2000029>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000215> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0018235>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000216> (<http://purl.obolibrary.org/obo/VCCF_1000216>)
 
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000216> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/VCCF_2000029>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000216> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0007324>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000217> (<http://purl.obolibrary.org/obo/VCCF_1000217>)
@@ -671,6 +843,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000224> ObjectSomeValuesFrom(<h
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000225> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/FMA_16005>))
 
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000226> (<http://purl.obolibrary.org/obo/VCCF_1000226>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000226> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/VCCF_2000029>))
+
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000227> (<http://purl.obolibrary.org/obo/VCCF_1000227>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000227> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0005429>))
@@ -691,10 +867,108 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000230> ObjectSomeValuesFrom(<h
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000232> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001248>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000232> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0004641>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000232> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000067>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000235> (<http://purl.obolibrary.org/obo/VCCF_1000235>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000235> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000016>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000237> (<http://purl.obolibrary.org/obo/VCCF_1000237>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000237> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000020>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000237> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000021>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000238> (<http://purl.obolibrary.org/obo/VCCF_1000238>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000238> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000032>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000248> (<http://purl.obolibrary.org/obo/VCCF_1000248>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000248> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000064>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000249> (<http://purl.obolibrary.org/obo/VCCF_1000249>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000249> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000022>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000252> (<http://purl.obolibrary.org/obo/VCCF_1000252>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000252> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000051>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000253> (<http://purl.obolibrary.org/obo/VCCF_1000253>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000253> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000007>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000281> (<http://purl.obolibrary.org/obo/VCCF_1000281>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000281> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000036>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000284> (<http://purl.obolibrary.org/obo/VCCF_1000284>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000284> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000036>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000287> (<http://purl.obolibrary.org/obo/VCCF_1000287>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000287> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000050>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000291> (<http://purl.obolibrary.org/obo/VCCF_1000291>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000291> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000057>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000293> (<http://purl.obolibrary.org/obo/VCCF_1000293>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000293> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000034>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000318> (<http://purl.obolibrary.org/obo/VCCF_1000318>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000318> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000045>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000321> (<http://purl.obolibrary.org/obo/VCCF_1000321>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000321> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000019>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000322> (<http://purl.obolibrary.org/obo/VCCF_1000322>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000322> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000024>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000328> (<http://purl.obolibrary.org/obo/VCCF_1000328>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000328> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000025>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000333> (<http://purl.obolibrary.org/obo/VCCF_1000333>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000333> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000058>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000335> (<http://purl.obolibrary.org/obo/VCCF_1000335>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000335> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000030>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000368> (<http://purl.obolibrary.org/obo/VCCF_1000368>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000368> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000066>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000381> (<http://purl.obolibrary.org/obo/VCCF_1000381>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000381> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/UBERON_0013485>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000392> (<http://purl.obolibrary.org/obo/VCCF_1000392>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000392> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000041>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000393> (<http://purl.obolibrary.org/obo/VCCF_1000393>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000393> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000041>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000394> (<http://purl.obolibrary.org/obo/VCCF_1000394>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000394> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000041>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000395> (<http://purl.obolibrary.org/obo/VCCF_1000395>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000395> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000041>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000396> (<http://purl.obolibrary.org/obo/VCCF_1000396>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000396> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000041>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000399> (<http://purl.obolibrary.org/obo/VCCF_1000399>)
 
@@ -703,18 +977,22 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000399> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000407> (<http://purl.obolibrary.org/obo/VCCF_1000407>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0008716>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000003>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000408> (<http://purl.obolibrary.org/obo/VCCF_1000408>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0008716>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000006>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000409> (<http://purl.obolibrary.org/obo/VCCF_1000409>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000409> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0008716>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000409> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000027>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000411> (<http://purl.obolibrary.org/obo/VCCF_1000411>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000411> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0008716>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000411> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000055>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000413> (<http://purl.obolibrary.org/obo/VCCF_1000413>)
 
@@ -737,6 +1015,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000416> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000416> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001285>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000416> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001229>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000416> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001230>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000416> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/VCCF_2000060>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000417> (<http://purl.obolibrary.org/obo/VCCF_1000417>)
 
@@ -752,6 +1031,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000418> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000418> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001285>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000418> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001229>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000418> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001230>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000418> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/VCCF_2000060>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000419> (<http://purl.obolibrary.org/obo/VCCF_1000419>)
 
@@ -760,6 +1040,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000419> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000419> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0004201>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000419> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0004202>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000419> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/UBERON_0001285>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000419> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/UBERON_0001291>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000419> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/UBERON_0004204>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000419> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/UBERON_0004205>))
 
@@ -787,6 +1068,27 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000421> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000422> (<http://purl.obolibrary.org/obo/VCCF_1000422>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000422> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0008716>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000422> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000068>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000426> (<http://purl.obolibrary.org/obo/VCCF_1000426>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000426> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000041>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000427> (<http://purl.obolibrary.org/obo/VCCF_1000427>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000427> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000041>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000428> (<http://purl.obolibrary.org/obo/VCCF_1000428>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000428> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000041>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000429> (<http://purl.obolibrary.org/obo/VCCF_1000429>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000429> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000041>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000430> (<http://purl.obolibrary.org/obo/VCCF_1000430>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000430> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000041>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000433> (<http://purl.obolibrary.org/obo/VCCF_1000433>)
 
@@ -819,9 +1121,81 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000456> ObjectSomeValuesFrom(<h
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000458> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0007196>))
 
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000460> (<http://purl.obolibrary.org/obo/VCCF_1000460>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000460> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000043>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000461> (<http://purl.obolibrary.org/obo/VCCF_1000461>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000461> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000043>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000462> (<http://purl.obolibrary.org/obo/VCCF_1000462>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000462> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000043>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000463> (<http://purl.obolibrary.org/obo/VCCF_1000463>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000463> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000043>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000464> (<http://purl.obolibrary.org/obo/VCCF_1000464>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000464> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000043>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000465> (<http://purl.obolibrary.org/obo/VCCF_1000465>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000465> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000043>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000466> (<http://purl.obolibrary.org/obo/VCCF_1000466>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000466> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000043>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000467> (<http://purl.obolibrary.org/obo/VCCF_1000467>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000467> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000043>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000468> (<http://purl.obolibrary.org/obo/VCCF_1000468>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000468> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000043>))
+
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000473> (<http://purl.obolibrary.org/obo/VCCF_1000473>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000473> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0007196>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000475> (<http://purl.obolibrary.org/obo/VCCF_1000475>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000475> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000043>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000476> (<http://purl.obolibrary.org/obo/VCCF_1000476>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000476> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000043>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000477> (<http://purl.obolibrary.org/obo/VCCF_1000477>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000477> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000043>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000478> (<http://purl.obolibrary.org/obo/VCCF_1000478>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000478> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000043>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000479> (<http://purl.obolibrary.org/obo/VCCF_1000479>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000479> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000043>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000480> (<http://purl.obolibrary.org/obo/VCCF_1000480>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000480> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000043>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000481> (<http://purl.obolibrary.org/obo/VCCF_1000481>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000481> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000043>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000482> (<http://purl.obolibrary.org/obo/VCCF_1000482>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000482> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000043>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000483> (<http://purl.obolibrary.org/obo/VCCF_1000483>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000483> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000043>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000487> (<http://purl.obolibrary.org/obo/VCCF_1000487>)
 
@@ -838,11 +1212,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000494> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000494> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0001505>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000494> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0001506>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000494> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0001507>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000494> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000009>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000495> (<http://purl.obolibrary.org/obo/VCCF_1000495>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000495> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0001509>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000495> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0002989>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000495> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000017>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000499> (<http://purl.obolibrary.org/obo/VCCF_1000499>)
 
@@ -853,6 +1229,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000499> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000499> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0001524>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000499> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0001525>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000499> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0003222>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000499> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000059>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000500> (<http://purl.obolibrary.org/obo/VCCF_1000500>)
 
@@ -897,6 +1274,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000529> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000529> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0001424>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000529> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0001523>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000529> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0003222>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000529> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000073>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000530> (<http://purl.obolibrary.org/obo/VCCF_1000530>)
 
@@ -909,6 +1287,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000532> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000532> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0001424>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000532> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0001523>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000532> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0008446>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000532> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000004>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000533> (<http://purl.obolibrary.org/obo/VCCF_1000533>)
 
@@ -922,33 +1301,41 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000533> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000533> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0007612>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000533> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0007614>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000533> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0017618>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000533> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000054>))
 
-# Class: <http://purl.obolibrary.org/obo/VCCF_1000538> (<http://purl.obolibrary.org/obo/VCCF_1000538>)
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000534> (<http://purl.obolibrary.org/obo/VCCF_1000534>)
 
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000538> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0036173>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000538> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0036174>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000538> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0036176>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000534> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0036173>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000534> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0036174>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000534> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0036176>))
 
-# Class: <http://purl.obolibrary.org/obo/VCCF_1000543> (<http://purl.obolibrary.org/obo/VCCF_1000543>)
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000539> (<http://purl.obolibrary.org/obo/VCCF_1000539>)
 
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000543> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_38615>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000543> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_38616>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000543> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0001522>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000543> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0016493>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000539> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_38615>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000539> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_38616>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000539> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0001522>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000539> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0016493>))
 
-# Class: <http://purl.obolibrary.org/obo/VCCF_1000544> (<http://purl.obolibrary.org/obo/VCCF_1000544>)
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000540> (<http://purl.obolibrary.org/obo/VCCF_1000540>)
 
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000544> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0001501>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000544> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0036172>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000540> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0001501>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000540> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0036172>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000552> (<http://purl.obolibrary.org/obo/VCCF_1000552>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000552> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000011>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000552> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/VCCF_2000010>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000564> (<http://purl.obolibrary.org/obo/VCCF_1000564>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000564> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0001129>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000564> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000037>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000565> (<http://purl.obolibrary.org/obo/VCCF_1000565>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000565> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0000976>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000565> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0001476>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000565> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000052>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000566> (<http://purl.obolibrary.org/obo/VCCF_1000566>)
 
@@ -960,24 +1347,69 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000566> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000567> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0001478>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000567> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0006849>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000567> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0010496>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000567> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000015>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000568> (<http://purl.obolibrary.org/obo/VCCF_1000568>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000568> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000071>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000570> (<http://purl.obolibrary.org/obo/VCCF_1000570>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000570> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000070>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000573> (<http://purl.obolibrary.org/obo/VCCF_1000573>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000573> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0001476>))
 
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000576> (<http://purl.obolibrary.org/obo/VCCF_1000576>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000018>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000578> (<http://purl.obolibrary.org/obo/VCCF_1000578>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000578> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000043>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000579> (<http://purl.obolibrary.org/obo/VCCF_1000579>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000579> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000043>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000581> (<http://purl.obolibrary.org/obo/VCCF_1000581>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000581> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000031>))
+
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000599> (<http://purl.obolibrary.org/obo/VCCF_1000599>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000599> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0002125>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000601> (<http://purl.obolibrary.org/obo/VCCF_1000601>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000601> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000028>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000611> (<http://purl.obolibrary.org/obo/VCCF_1000611>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000611> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0001477>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000611> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0002383>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000611> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0006849>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000611> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000069>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000612> (<http://purl.obolibrary.org/obo/VCCF_1000612>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000612> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0006849>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000612> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000072>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000722> (<http://purl.obolibrary.org/obo/VCCF_1000722>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000722> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/VCCF_2000038>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000722> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/VCCF_2000039>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000722> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/VCCF_2000040>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000723> (<http://purl.obolibrary.org/obo/VCCF_1000723>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000723> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/VCCF_2000033>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000724> (<http://purl.obolibrary.org/obo/VCCF_1000724>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000724> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/VCCF_2000035>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000726> (<http://purl.obolibrary.org/obo/VCCF_1000726>)
 
@@ -993,9 +1425,37 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000727> ObjectSomeValuesFrom(<h
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000728> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0004647>))
 
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000729> (<http://purl.obolibrary.org/obo/VCCF_1000729>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000729> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000002>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000730> (<http://purl.obolibrary.org/obo/VCCF_1000730>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000730> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000047>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000731> (<http://purl.obolibrary.org/obo/VCCF_1000731>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000731> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000061>))
+
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000732> (<http://purl.obolibrary.org/obo/VCCF_1000732>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000732> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0002107>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000733> (<http://purl.obolibrary.org/obo/VCCF_1000733>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000733> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000005>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000734> (<http://purl.obolibrary.org/obo/VCCF_1000734>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000734> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000033>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000735> (<http://purl.obolibrary.org/obo/VCCF_1000735>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000735> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000039>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000736> (<http://purl.obolibrary.org/obo/VCCF_1000736>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000736> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000038>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000737> (<http://purl.obolibrary.org/obo/VCCF_1000737>)
 
@@ -1027,10 +1487,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000752> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000754> (<http://purl.obolibrary.org/obo/VCCF_1000754>)
 
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000754> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/VCCF_2000029>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000754> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0018235>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000755> (<http://purl.obolibrary.org/obo/VCCF_1000755>)
 
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000755> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/VCCF_2000029>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000755> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/UBERON_0007324>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000756> (<http://purl.obolibrary.org/obo/VCCF_1000756>)
@@ -1042,6 +1504,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000756> ObjectSomeValuesFrom(<h
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000757> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007324>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000757> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0001978>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000758> (<http://purl.obolibrary.org/obo/VCCF_1000758>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000758> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/VCCF_2000029>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000759> (<http://purl.obolibrary.org/obo/VCCF_1000759>)
 
@@ -1078,9 +1544,63 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000776> ObjectSomeValuesFrom(<h
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000777> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/UBERON_0001247>))
 
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000778> (<http://purl.obolibrary.org/obo/VCCF_1000778>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000778> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000035>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000779> (<http://purl.obolibrary.org/obo/VCCF_1000779>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000779> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000042>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000780> (<http://purl.obolibrary.org/obo/VCCF_1000780>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000780> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000044>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000781> (<http://purl.obolibrary.org/obo/VCCF_1000781>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000781> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000040>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000782> (<http://purl.obolibrary.org/obo/VCCF_1000782>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000782> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000046>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000783> (<http://purl.obolibrary.org/obo/VCCF_1000783>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000783> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000053>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000784> (<http://purl.obolibrary.org/obo/VCCF_1000784>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000784> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000062>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000785> (<http://purl.obolibrary.org/obo/VCCF_1000785>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000785> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000056>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000786> (<http://purl.obolibrary.org/obo/VCCF_1000786>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000786> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000042>))
+
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000787> (<http://purl.obolibrary.org/obo/VCCF_1000787>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000787> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/UBERON_0004538>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000805> (<http://purl.obolibrary.org/obo/VCCF_1000805>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000805> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/VCCF_2000040>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000805> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/VCCF_2000042>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000805> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/VCCF_2000047>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000806> (<http://purl.obolibrary.org/obo/VCCF_1000806>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000806> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/VCCF_2000002>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000807> (<http://purl.obolibrary.org/obo/VCCF_1000807>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000807> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/VCCF_2000044>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000808> (<http://purl.obolibrary.org/obo/VCCF_1000808>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000808> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/VCCF_2000046>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000810> (<http://purl.obolibrary.org/obo/VCCF_1000810>)
 
@@ -1122,6 +1642,24 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000816> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000816> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/UBERON_0004204>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000816> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/UBERON_0004205>))
 
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000818> (<http://purl.obolibrary.org/obo/VCCF_1000818>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000818> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/VCCF_2000047>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000818> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/VCCF_2000061>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000818> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/VCCF_2000062>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000819> (<http://purl.obolibrary.org/obo/VCCF_1000819>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000819> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/VCCF_2000005>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000820> (<http://purl.obolibrary.org/obo/VCCF_1000820>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000820> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/VCCF_2000053>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1000821> (<http://purl.obolibrary.org/obo/VCCF_1000821>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000821> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/VCCF_2000056>))
+
 # Class: <http://purl.obolibrary.org/obo/VCCF_1000824> (<http://purl.obolibrary.org/obo/VCCF_1000824>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000824> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/UBERON_0004539>))
@@ -1138,223 +1676,530 @@ SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000834> ObjectSomeValuesFrom(<h
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1000847> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020102> <http://purl.obolibrary.org/obo/UBERON_0007196>))
 
-# Class: <http://purl.obolibrary.org/obo/VCCF_1001002> (<http://purl.obolibrary.org/obo/VCCF_1001002>)
-
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0002167>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0002168>))
-
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001003> (<http://purl.obolibrary.org/obo/VCCF_1001003>)
 
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0002167>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0002168>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001004> (<http://purl.obolibrary.org/obo/VCCF_1001004>)
 
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0008952>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0002168>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001005> (<http://purl.obolibrary.org/obo/VCCF_1001005>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008952>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7373>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0008952>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001006> (<http://purl.obolibrary.org/obo/VCCF_1001006>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008952>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7373>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001007> (<http://purl.obolibrary.org/obo/VCCF_1001007>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008952>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0008952>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0008953>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/VCCF_2000008>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001008> (<http://purl.obolibrary.org/obo/VCCF_1001008>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0008952>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0008953>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001009> (<http://purl.obolibrary.org/obo/VCCF_1001009>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008953>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7378>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0008953>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001010> (<http://purl.obolibrary.org/obo/VCCF_1001010>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008953>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7379>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7378>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001011> (<http://purl.obolibrary.org/obo/VCCF_1001011>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008953>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7377>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7379>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001012> (<http://purl.obolibrary.org/obo/VCCF_1001012>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008953>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7380>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7377>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001013> (<http://purl.obolibrary.org/obo/VCCF_1001013>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008953>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0008952>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7380>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001014> (<http://purl.obolibrary.org/obo/VCCF_1001014>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008952>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7375>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0008952>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001015> (<http://purl.obolibrary.org/obo/VCCF_1001015>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008952>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7374>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7375>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001016> (<http://purl.obolibrary.org/obo/VCCF_1001016>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008953>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008952>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7376>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7374>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1001017> (<http://purl.obolibrary.org/obo/VCCF_1001017>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008953>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7376>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001019> (<http://purl.obolibrary.org/obo/VCCF_1001019>)
 
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0010369>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/VCCF_2000000>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001020> (<http://purl.obolibrary.org/obo/VCCF_1001020>)
 
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008874>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0010369>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/VCCF_2000000>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001021> (<http://purl.obolibrary.org/obo/VCCF_1001021>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008874>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0010369>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/VCCF_2000000>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001022> (<http://purl.obolibrary.org/obo/VCCF_1001022>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008874>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0010369>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/UBERON_0002169>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/UBERON_0002173>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/UBERON_0002188>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/UBERON_0002299>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/VCCF_2000000>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/VCCF_2000001>))
 
-# Class: <http://purl.obolibrary.org/obo/VCCF_1001024> (<http://purl.obolibrary.org/obo/VCCF_1001024>)
+# Class: <http://purl.obolibrary.org/obo/VCCF_1001023> (<http://purl.obolibrary.org/obo/VCCF_1001023>)
 
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008874>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0010369>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/VCCF_2000000>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/VCCF_2000001>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/UBERON_0002169>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/UBERON_0002173>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/UBERON_0002188>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020103> <http://purl.obolibrary.org/obo/UBERON_0002299>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001025> (<http://purl.obolibrary.org/obo/VCCF_1001025>)
 
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0002171>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0002174>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0002167>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001026> (<http://purl.obolibrary.org/obo/VCCF_1001026>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0002171>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0002174>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001027> (<http://purl.obolibrary.org/obo/VCCF_1001027>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002171>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7364>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0002171>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001028> (<http://purl.obolibrary.org/obo/VCCF_1001028>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002171>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7363>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7364>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001029> (<http://purl.obolibrary.org/obo/VCCF_1001029>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002171>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7365>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7363>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001030> (<http://purl.obolibrary.org/obo/VCCF_1001030>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002171>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7362>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7365>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001031> (<http://purl.obolibrary.org/obo/VCCF_1001031>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002174>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002171>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7361>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7362>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001032> (<http://purl.obolibrary.org/obo/VCCF_1001032>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002174>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7360>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7361>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001033> (<http://purl.obolibrary.org/obo/VCCF_1001033>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002171>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002174>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7366>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7360>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001034> (<http://purl.obolibrary.org/obo/VCCF_1001034>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002171>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0002170>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7366>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001035> (<http://purl.obolibrary.org/obo/VCCF_1001035>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002170>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/UBERON_0002170>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001036> (<http://purl.obolibrary.org/obo/VCCF_1001036>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002170>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7359>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001037> (<http://purl.obolibrary.org/obo/VCCF_1001037>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002170>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7338>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7359>))
 
 # Class: <http://purl.obolibrary.org/obo/VCCF_1001038> (<http://purl.obolibrary.org/obo/VCCF_1001038>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002170>))
 SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
-SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7339>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7338>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_1001039> (<http://purl.obolibrary.org/obo/VCCF_1001039>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002170>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/UBERON_0002401>))
+SubClassOf(<http://purl.obolibrary.org/obo/VCCF_1001039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020101> <http://purl.obolibrary.org/obo/FMA_7339>))
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000000> (pulmonary segment)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000000> "pulmonary segment")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000001> (inter-alveolar septa)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000001> "inter-alveolar septa")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000002> (anterior inferior segment of liver)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000002> "anterior inferior segment of liver")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000003> (antero-inferior segment of kidney)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000003> "antero-inferior segment of kidney")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000004> (angiosome 39 - anterior interosseous)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000004> "angiosome 39 - anterior interosseous")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000005> (anterior superior segment of liver)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000005> "anterior superior segment of liver")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000006> (anterosuperior segment of kidney)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000006> "anterosuperior segment of kidney")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000007> (angiosome 26 - anterior tibial)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000007> "angiosome 26 - anterior tibial")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000008> (apicoposterior segment)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000008> "apicoposterior segment")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000009> (angiosome 14 - brachial)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000009> "angiosome 14 - brachial")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000010> (dermal papilla of skin)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000010> "dermal papilla of skin")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000011> (epidermal ridge)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000011> "epidermal ridge")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000012> (inner mantle zone)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000012> "inner mantle zone")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000013> (superficial mantle zone)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000013> "superficial mantle zone")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000014> (angiosome 3 - buccal (internal maxillary))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000014> "angiosome 3 - buccal (internal maxillary)")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000015> (angiosome 12 - circumflex scapular)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000015> "angiosome 12 - circumflex scapular")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000016> (angiosome 32 - common femoral)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000016> "angiosome 32 - common femoral")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000017> (angiosome 13 - profunda brachii)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000017> "angiosome 13 - profunda brachii")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000018> (angiosome 7 - deep cervical)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000018> "angiosome 7 - deep cervical")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000019> (angiosome 33 - deep circumflex iliac)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000019> "angiosome 33 - deep circumflex iliac")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000020> (angiosome 21 - profunda femoris)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000020> "angiosome 21 - profunda femoris")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000021> (angiosome 28 - adductor (profunda))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000021> "angiosome 28 - adductor (profunda)")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000022> (angiosome 22a - descending geniculate (saphenous))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000022> "angiosome 22a - descending geniculate (saphenous)")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000023> (angiosome 2 - facial)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000023> "angiosome 2 - facial")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000024> (angiosome 34 - deep inferior epigastric)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000024> "angiosome 34 - deep inferior epigastric")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000025> (angiosome 20 - inferior gluteal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000025> "angiosome 20 - inferior gluteal")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000026> (inferior lobe of spleen)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000026> "inferior lobe of spleen")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000027> (inferior segment of kidney)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000027> "inferior segment of kidney")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000028> (angiosome 1 - thyroid)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000028> "angiosome 1 - thyroid")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000029> (connective tissue septa of pancreas)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000029> "connective tissue septa of pancreas")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000030> (angiosome 40 - internal pudendal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000030> "angiosome 40 - internal pudendal")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000031> (angiosome 35 - internal thoracic)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000031> "angiosome 35 - internal thoracic")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000032> (angiosome 27 - lateral femoral circumflex)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000032> "angiosome 27 - lateral femoral circumflex")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000033> (lateral inferior segment of liver)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000033> "lateral inferior segment of liver")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000034> (angiosome 25 - lateral plantar)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000034> "angiosome 25 - lateral plantar")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000035> (lateral superior segment of liver)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000035> "lateral superior segment of liver")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000036> (angiosome 23 - sural)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000036> "angiosome 23 - sural")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000037> (angiosome 36 - lateral thoracic)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000037> "angiosome 36 - lateral thoracic")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000038> (left portal lobe)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000038> "left portal lobe")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000039> (left lateral sector of liver)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000039> "left lateral sector of liver")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000040> (left medial sector of liver)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000040> "left medial sector of liver")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000041> (angiosome 18 - lumbar)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000041> "angiosome 18 - lumbar")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000042> (caudate lobe)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000042> "caudate lobe")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000043> (angiosome 17 - posterior intercostals)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000043> "angiosome 17 - posterior intercostals")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000044> (medial inferior segment of liver)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000044> "medial inferior segment of liver")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000045> (angiosome 29 - medial plantar)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000045> "angiosome 29 - medial plantar")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000046> (medial superior segment of liver)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000046> "medial superior segment of liver")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000047> (right anterior sector of liver)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000047> "right anterior sector of liver")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000048> (angiosome 6 - occipital)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000048> "angiosome 6 - occipital")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000049> (angiosome 4 - ophthalmic)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000049> "angiosome 4 - ophthalmic")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000050> (angiosome 24 - peroneal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000050> "angiosome 24 - peroneal")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000051> (angiosome 22 - popliteal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000051> "angiosome 22 - popliteal")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000052> (angiosome 11 - posterior circumflex humeral)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000052> "angiosome 11 - posterior circumflex humeral")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000053> (posterior inferior segment of liver)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000053> "posterior inferior segment of liver")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000054> (angiosome 38 - posterior interosseous)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000054> "angiosome 38 - posterior interosseous")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000055> (posterior segment of kidney)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000055> "posterior segment of kidney")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000056> (posterior superior segment of liver)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000056> "posterior superior segment of liver")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000057> (angiosome 30 - posterior tibial)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000057> "angiosome 30 - posterior tibial")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000058> (protastic glanduar acinus)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000058> "protastic glanduar acinus")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000059> (angiosome 16 - radial)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000059> "angiosome 16 - radial")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000060> (vascular pole)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000060> "vascular pole")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000061> (right portal lobe)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000061> "right portal lobe")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000062> (right posterior sector of liver)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000062> "right posterior sector of liver")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000063> (segment of spleen)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000063> "segment of spleen")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000064> (angiosome 31 - superficial femoral)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000064> "angiosome 31 - superficial femoral")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000065> (angiosome 5 - superficial temporal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000065> "angiosome 5 - superficial temporal")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000066> (angiosome 19 - superior gluteal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000066> "angiosome 19 - superior gluteal")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000067> (superior lobe of spleen)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000067> "superior lobe of spleen")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000068> (apical segment of kidney)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000068> "apical segment of kidney")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000069> (angiosome 10 - suprascapular)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000069> "angiosome 10 - suprascapular")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000070> (angiosome 9 - acromiothoracic)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000070> "angiosome 9 - acromiothoracic")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000071> (angiosome 37 - thoracodorsal)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000071> "angiosome 37 - thoracodorsal")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000072> (angiosome 8 - tranverse cervical)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000072> "angiosome 8 - tranverse cervical")
+
+# Class: <http://purl.obolibrary.org/obo/VCCF_2000073> (angiosome 15 - ulnar)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VCCF_2000073> "angiosome 15 - ulnar")
 
 
 )

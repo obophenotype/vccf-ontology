@@ -1,6 +1,7 @@
 from pathlib import Path
 
 import pandas as pd
+import requests
 
 
 def read(input, sep=","):
@@ -31,3 +32,10 @@ def transform_id(term):
 
 def extract(data: pd.DataFrame, columns_extract: list) -> pd.DataFrame:
     return data[columns_extract]  # type: ignore
+
+
+def convert_pmcid(url):
+    BASE_URL = "https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/"
+    pmcid = url.split('/')[-2]
+    response = requests.get(BASE_URL, params={"ids": pmcid, "format": "json"})
+    return f"PMID:{response.json()['records'][0]['pmid']}"
