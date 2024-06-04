@@ -25,6 +25,7 @@ def crosswalk_template(crosswalk_data, vessels_data) -> pd.DataFrame:
 
     vccf_id = generate_id(2000000, 2999999)
     new_vessels = {}
+    new_body_parts = {}
     for _, row in crosswalk_data.iterrows():
         if str(row["Relationship"]) != "nan":
             vessel_id = search_id(vessels_data, row["Vessel"])
@@ -40,11 +41,20 @@ def crosswalk_template(crosswalk_data, vessels_data) -> pd.DataFrame:
             r["Vessel"] = vessel_id
             if row["Vessel"] in new_vessels:
                 r["Label"] = row["Vessel"]
-            if str(row["BodyPartID"]) != "nan":
+            if str(row["BodySubPartID"]) != "nan":
                 r[f"{row['Relationship']}"] = row["BodySubPartID"]
             else:
-                r[f"{row['Relationship']}"] = f"VCCF:{next(vccf_id)}"
-                r["Label"] = row["BodySubPart"]
+                if row["BodySubPart"] not in new_body_parts:
+                    new_body_part_id = next(vccf_id)
+                    new_body_parts[row["BodySubPart"]] = new_body_part_id
+                    r[f"{row['Relationship']}"] = f"VCCF:{new_body_part_id}"
+                    b = {}
+                    b["Vessel"] = f"VCCF:{new_body_part_id}"
+                    b["Label"] = row["BodySubPart"]
+                    template.append(b)
+                else:
+                    r[f"{row['Relationship']}"] = f"VCCF:{new_body_parts[row['BodySubPart']]}"
+
             template.append(r)
 
     return pd.DataFrame.from_records(template)
