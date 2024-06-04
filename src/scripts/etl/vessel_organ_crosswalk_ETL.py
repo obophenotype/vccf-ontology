@@ -42,7 +42,7 @@ def crosswalk_template(crosswalk_data, vessels_data) -> pd.DataFrame:
             if row["Vessel"] in new_vessels:
                 r["Label"] = row["Vessel"]
             if str(row["BodySubPartID"]) != "nan":
-                r[f"{row['Relationship']}"] = row["BodySubPartID"]
+                r[f"{row['Relationship']}"] = row["BodySubPartID"].replace("::", ":")
             else:
                 if row["BodySubPart"] not in new_body_parts:
                     new_body_part_id = next(vccf_id)
